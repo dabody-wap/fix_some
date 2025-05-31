@@ -256,7 +256,7 @@ class ThreeSixFiveScores:
         
         return response_data['actualGameStatistics']
     
-    def get_match_data_by_id(self, game_id, competition_id="552"):
+    def get_match_data_by_id(self, game_id, competition_id="any id"): # تسطيع اضافة رقم int االبطوله المحلية
         """
         Fetch match data from 365Scores API for a given game and competition.
         """
@@ -368,7 +368,7 @@ class ThreeSixFiveScores:
 
         return df
         
-    def get_shotmap_enriched(self, game_id, competition_id=552):
+    def get_shotmap_enriched(self, game_id, competition_id=$$$): # تسطيع اضافة رقم int االبطوله المحلية
         """
         Returns a DataFrame of events with readable eventType, status, subType, and player name columns,
         only if the match has been played (at least one team's score > 0).
@@ -713,7 +713,7 @@ class ThreeSixFiveScores:
         return text
 
 
-    def get_public_match_url_from_game_id(self, game_id, lang_id=1, timezone_name="Asia/Hebron", user_country_id=115):
+    def get_public_match_url_from_game_id(self, game_id, lang_id=1, timezone_name="Asia/Hebron", user_country_id= $$$): # جاري التعديل | # <<<<<<  >>>> # تسطيع اضافة رقم int االبطوله المحلية
         """
         Constructs the public 365Scores match URL from a gameId.
         تقوم ببناء رابط URL العام لمباراة 365Scores من gameId.
@@ -797,7 +797,7 @@ class ThreeSixFiveScores:
         
         return public_url
 
-    def get_public_match_url_from_ids(self, matchup_ids_str, game_id, lang_id=1, timezone_name="Asia/Hebron", user_country_id=115):
+    def get_public_match_url_from_ids(self, matchup_ids_str, game_id, lang_id=1, timezone_name="Asia/Hebron", user_country_id= $$$): # # تسطيع اضافة رقم int االبطوله المحلية جاري التعديل | 
         """
         Constructs the public 365Scores match URL using a pre-parsed matchup IDs string and a gameId.
         تقوم ببناء رابط URL العام لمباراة 365Scores باستخدام سلسلة معرّفات المباراة المحللة مسبقًا و gameId.
@@ -1060,7 +1060,7 @@ class ThreeSixFiveScores:
         }
 
 
-    def get_competition_results(
+    def get_competition_results(                    # جاري التعديل | تخذا المزيد من الوقت في جلب المباريات 
         self,
         competition_id: int,
         after_game: int = None,
