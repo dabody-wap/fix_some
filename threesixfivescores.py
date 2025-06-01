@@ -27,30 +27,7 @@ except ImportError:
         "referer": "https://www.365scores.com/",
         "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 ...",
     }
-    def fetch_url(url):
-        tries = 0
-        while tries < 5:
-            try:
-                response = requests.get(url, headers=headers, timeout=10)
-                if response.status_code == 429:
-                    # Rate limited, wait and retry
-                    print(f"429 Too Many Requests for {url}. Sleeping 60s...")
-                    time.sleep(60)
-                    tries += 1
-                    continue
-                response.raise_for_status()
-                print(f"Fetched: {url}")
-                time.sleep(random.uniform(0.25, 0.5))  # Sleep between 0.25–0.5s
-                return url, response.json()
-            except Exception as e:
-                print(f"Error fetching {url}: {e}")
-                tries += 1
-                time.sleep(2 * tries)  # Exponential backoff
-        return url, None
 
-    urls = [...]  # your list of URLs here
-
-    results = []
     with ThreadPoolExecutor(max_workers=6) as executor:
         future_to_url = {executor.submit(fetch_url, url): url for url in urls}
         for future in as_completed(future_to_url):
@@ -58,10 +35,7 @@ except ImportError:
             if data is not None:
                 results.append(data)
 
-    with open("results.json", "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    print(f"Done! Scraped {len(results)} URLs.")
-
+    
 class ThreeSixFiveScores:
     def __init__(self):
         self.session = requests.Session()
@@ -475,77 +449,6 @@ class ThreeSixFiveScores:
             return df[df['status'].isin(valid_statuses)]
         return df
 
-    def get_competition_results_fast(
-        self,
-        competition_id: int,
-        status_filter: str = None,
-        max_workers: int = 8,
-        page_size: int = 100
-    ) -> dict:
-        first_page = self.get_competition_results(
-            competition_id=competition_id,
-            page_size=page_size,
-            fetch_all=False
-        )
-        games_df = first_page['games']
-        next_token = first_page['paging'].get('next_token')
-        total_games = first_page['paging'].get('total_games', 0)
-        if not next_token or total_games <= page_size:
-            if status_filter:
-                games_df = self._apply_status_filter(games_df, status_filter)
-            return {
-                'games': games_df,
-                'total_games': total_games
-            }
-        remaining_games = total_games - len(games_df)
-        remaining_pages = (remaining_games + page_size - 1) // page_size
-        print(f"جلب {remaining_pages} صفحة إضافية باستخدام {max_workers} عملية...")
-        all_additional_games = []
-        tokens_queue = [next_token]
-        for _ in range(1, min(remaining_pages, max_workers * 2)):
-            tokens_queue.append(None)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            futures = {}
-            for i, token in enumerate(tokens_queue):
-                if token is None:
-                    continue
-                future = executor.submit(
-                    self.get_competition_results,
-                    competition_id=competition_id,
-                    after_game=token,
-                    page_size=page_size,
-                    fetch_all=False
-                )
-                futures[future] = i
-            for future in concurrent.futures.as_completed(futures):
-                idx = futures[future]
-                try:
-                    page_result = future.result()
-                    all_additional_games.extend(page_result['games'].to_dict('records'))
-                    new_token = page_result['paging'].get('next_token')
-                    if new_token and idx + 1 < len(tokens_queue):
-                        tokens_queue[idx + 1] = new_token
-                        if idx + 1 >= len(futures) and len(futures) < remaining_pages:
-                            new_future = executor.submit(
-                                self.get_competition_results,
-                                competition_id=competition_id,
-                                after_game=new_token,
-                                page_size=page_size,
-                                fetch_all=False
-                            )
-                            futures[new_future] = idx + 1
-                except Exception as e:
-                    print(f"خطأ في جلب الصفحة: {e}")
-        if all_additional_games:
-            additional_df = pd.DataFrame(all_additional_games)
-            games_df = pd.concat([games_df, additional_df], ignore_index=True)
-        if status_filter:
-            games_df = self._apply_status_filter(games_df, status_filter)
-        return {
-            'games': games_df.reset_index(drop=True),
-            'total_games': len(games_df)
-        }
-
     def get_competition_results(
         self,
         competition_id: int,
@@ -657,9 +560,12 @@ class ThreeSixFiveScores:
         except requests.RequestException as e:
             raise ConnectionError(f"فشل في الاتصال بواجهة برمجة التطبيقات: {e}")
 
-    def get_full_competition_results(self, competition_id: int, page_size: int = 50) -> pd.DataFrame:
+
+    def get_full_competition_results(self, competition_id: int, page_size: int = 50, max_pages: int = 1000, max_games: int = None) -> pd.DataFrame:
         all_games_dfs = []
         processed_game_ids = set()
+        seen_next_tokens = set()
+        seen_prev_tokens = set()
         print(f"جاري جلب الصفحة الأولية للمسابقة {competition_id}...")
         initial_page_data = self.get_competition_results(
             competition_id=competition_id,
@@ -678,11 +584,18 @@ class ThreeSixFiveScores:
         else:
             print(f"لم يتم العثور على مباريات في الصفحة الأولية للمسابقة {competition_id}.")
             return pd.DataFrame()
-        print("جاري جلب المباريات الأقدم...")
+
+        # Older pages
         page_count_older = 0
         while current_prev_token:
+            if page_count_older >= max_pages:
+                print("تجاوز الحد الأقصى لعدد الصفحات (الأقدم). إيقاف الجلب.")
+                break
+            if current_prev_token in seen_prev_tokens:
+                print("تم اكتشاف رمز صفحة مكرر (الأقدم). إيقاف الجلب لتجنب الحلقة اللانهائية.")
+                break
+            seen_prev_tokens.add(current_prev_token)
             page_count_older += 1
-            print(f"  جلب صفحة المباريات الأقدم رقم {page_count_older} (الرمز: {current_prev_token})...")
             page_data = self.get_competition_results(
                 competition_id=competition_id,
                 after_game=current_prev_token,
@@ -696,20 +609,26 @@ class ThreeSixFiveScores:
                 if not new_games.empty:
                     all_games_dfs.append(new_games)
                     processed_game_ids.update(new_games['game_id'])
+                if max_games and len(processed_game_ids) >= max_games:
+                    print("تجاوز الحد الأقصى لعدد المباريات. إيقاف الجلب.")
+                    break
                 current_prev_token = page_data['paging'].get('prev_token')
                 if not current_prev_token:
-                    print("    لا يوجد المزيد من المباريات الأقدم.")
                     break
-                if len(new_games) < page_size and page_data['paging'].get('total_games', 0) > 0: 
-                    print(f"    تم جلب {len(new_games)} مباراة، قد تكون هذه آخر صفحة أقدم.")
             else:
-                print("    لم يتم العثور على مباريات في هذه الصفحة الأقدم أو حدث خطأ.")
                 break
-        print("جاري جلب المباريات الأحدث (إذا وجدت)...")
+
+        # Newer pages
         page_count_newer = 0
         while current_next_token:
-            page_count_newer +=1
-            print(f"  جلب صفحة المباريات الأحدث رقم {page_count_newer} (الرمز: {current_next_token})...")
+            if page_count_newer >= max_pages:
+                print("تجاوز الحد الأقصى لعدد الصفحات (الأحدث). إيقاف الجلب.")
+                break
+            if current_next_token in seen_next_tokens:
+                print("تم اكتشاف رمز صفحة مكرر (الأحدث). إيقاف الجلب لتجنب الحلقة اللانهائية.")
+                break
+            seen_next_tokens.add(current_next_token)
+            page_count_newer += 1
             page_data = self.get_competition_results(
                 competition_id=competition_id,
                 after_game=current_next_token,
@@ -723,13 +642,15 @@ class ThreeSixFiveScores:
                 if not new_games.empty:
                     all_games_dfs.append(new_games)
                     processed_game_ids.update(new_games['game_id'])
+                if max_games and len(processed_game_ids) >= max_games:
+                    print("تجاوز الحد الأقصى لعدد المباريات. إيقاف الجلب.")
+                    break
                 current_next_token = page_data['paging'].get('next_token')
                 if not current_next_token:
-                    print("    لا يوجد المزيد من المباريات الأحدث.")
                     break
             else:
-                print("    لم يتم العثور على مباريات في هذه الصفحة الأحدث أو حدث خطأ.")
                 break
+
         if not all_games_dfs:
             print(f"لم يتم تجميع أي بيانات مباريات للمسابقة {competition_id}.")
             return pd.DataFrame()
@@ -738,8 +659,82 @@ class ThreeSixFiveScores:
         if 'datetime_obj' in final_df.columns and not final_df['datetime_obj'].isnull().all():
             final_df = final_df.sort_values('datetime_obj', ascending=True).reset_index(drop=True)
         else:
-            print("تحذير: لا يمكن الفرز حسب وقت المباراة، عمود 'datetime_obj' مفقود أو فارغ.")
             if 'game_id' in final_df.columns:
                 final_df = final_df.sort_values('game_id', ascending=True).reset_index(drop=True)
         print(f"تم جلب ما مجموعه {len(final_df)} مباراة فريدة بعد ترقيم الصفحات للمسابقة {competition_id}.")
         return final_df
+
+    def get_competition_results_fast(
+        self,
+        competition_id: int,
+        status_filter: str = None,
+        max_workers: int = 8,
+        page_size: int = 100,
+        max_pages: int = 1000,
+        max_games: int = None,
+    ) -> dict:
+        first_page = self.get_competition_results(
+            competition_id=competition_id,
+            page_size=page_size,
+            fetch_all=False
+        )
+        games_df = first_page['games']
+        next_token = first_page['paging'].get('next_token')
+        total_games = first_page['paging'].get('total_games', 0)
+        if not next_token or total_games <= page_size:
+            if status_filter:
+                games_df = self._apply_status_filter(games_df, status_filter)
+            return {
+                'games': games_df,
+                'total_games': total_games
+            }
+        remaining_games = total_games - len(games_df)
+        remaining_pages = (remaining_games + page_size - 1) // page_size
+        all_additional_games = []
+        tokens_queue = [next_token]
+        seen_tokens = set(tokens_queue)
+        page_counter = 0
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {}
+            for i, token in enumerate(tokens_queue):
+                if token is None:
+                    continue
+                if max_pages and page_counter >= max_pages:
+                    break
+                if token in seen_tokens:
+                    continue
+                future = executor.submit(
+                    self.get_competition_results,
+                    competition_id=competition_id,
+                    after_game=token,
+                    page_size=page_size,
+                    fetch_all=False
+                )
+                futures[future] = i
+                seen_tokens.add(token)
+                page_counter += 1
+            for future in concurrent.futures.as_completed(futures):
+                idx = futures[future]
+                try:
+                    page_result = future.result()
+                    all_additional_games.extend(page_result['games'].to_dict('records'))
+                    new_token = page_result['paging'].get('next_token')
+                    if new_token and idx + 1 < len(tokens_queue):
+                        tokens_queue[idx + 1] = new_token
+                        if idx + 1 >= len(futures) and len(futures) < remaining_pages:
+                            tokens_queue.append(new_token)
+                            seen_tokens.add(new_token)
+                except Exception as e:
+                    print(f"خطأ في جلب الصفحة: {e}")
+        if all_additional_games:
+            additional_df = pd.DataFrame(all_additional_games)
+            games_df = pd.concat([games_df, additional_df], ignore_index=True)
+        if status_filter:
+            games_df = self._apply_status_filter(games_df, status_filter)
+        if max_games and len(games_df) > max_games:
+            games_df = games_df.head(max_games)
+        return {
+            'games': games_df.reset_index(drop=True),
+            'total_games': len(games_df)
+        }
+    
