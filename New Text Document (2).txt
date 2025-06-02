@@ -1,0 +1,680 @@
+Fetching page: 1, URL: https://webws.365scores.com/web/games/results/?appTypeId=5&langId=1&timezoneName=Asia%2FHebron&userCountryId=115&competitions=552&showOdds=true&includeTopBettingOpportunity=1&games=50
+Fetched page 1: 16 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395844&direction=1&withmainodds=true
+Fetching page: 2, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395844&direction=1&withmainodds=true
+Fetched page 2: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395894&direction=1&withmainodds=true
+Fetching page: 3, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395894&direction=1&withmainodds=true
+Fetched page 3: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 4, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 4: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 5, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 5: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 6, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 6: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 7, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 7: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 8, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 8: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 9, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 9: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 10, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 10: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 11, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 11: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 12, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 12: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 13, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 13: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 14, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 14: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 15, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 15: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 16, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 16: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 17, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 17: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 18, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 18: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 19, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 19: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 20, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 20: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 21, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 21: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 22, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 22: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 23, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 23: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 24, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 24: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 25, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 25: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 26, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 26: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 27, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 27: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 28, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 28: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 29, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 29: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 30, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 30: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 31, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 31: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 32, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 32: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 33, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 33: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 34, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 34: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 35, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 35: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 36, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 36: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 37, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 37: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 38, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 38: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 39, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 39: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 40, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 40: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 41, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 41: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 42, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 42: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 43, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 43: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 44, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 44: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 45, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 45: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 46, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 46: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 47, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 47: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 48, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 48: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 49, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 49: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 50, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 50: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 51, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 51: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 52, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 52: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 53, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 53: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 54, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 54: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 55, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 55: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 56, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 56: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 57, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 57: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 58, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 58: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 59, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 59: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 60, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 60: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 61, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 61: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 62, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 62: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 63, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 63: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 64, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 64: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 65, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 65: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 66, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 66: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 67, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 67: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 68, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 68: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 69, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 69: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 70, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 70: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 71, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 71: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 72, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 72: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 73, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 73: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 74, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 74: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 75, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 75: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 76, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 76: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 77, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 77: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 78, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 78: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 79, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 79: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 80, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 80: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 81, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 81: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 82, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 82: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 83, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 83: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 84, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 84: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 85, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 85: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 86, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 86: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 87, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 87: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 88, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 88: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 89, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 89: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 90, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 90: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 91, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 91: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 92, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 92: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 93, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 93: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 94, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 94: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 95, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 95: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 96, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 96: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 97, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 97: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 98, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 98: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 99, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 99: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 100, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 100: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 101, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 101: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 102, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 102: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 103, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 103: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 104, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 104: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 105, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 105: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 106, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 106: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 107, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 107: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 108, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 108: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 109, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 109: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 110, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 110: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 111, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 111: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 112, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 112: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 113, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 113: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 114, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 114: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 115, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 115: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 116, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 116: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 117, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 117: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 118, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 118: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 119, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 119: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 120, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 120: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 121, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 121: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 122, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 122: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 123, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 123: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 124, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 124: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 125, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 125: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 126, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 126: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 127, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 127: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 128, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 128: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 129, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 129: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 130, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 130: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 131, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 131: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 132, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 132: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 133, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 133: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 134, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 134: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 135, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 135: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 136, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 136: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 137, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 137: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 138, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 138: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 139, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 139: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 140, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 140: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 141, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 141: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 142, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 142: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 143, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 143: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 144, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 144: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 145, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 145: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 146, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 146: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 147, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 147: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 148, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 148: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 149, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 149: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 150, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 150: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 151, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 151: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 152, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 152: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 153, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 153: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 154, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 154: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 155, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 155: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 156, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 156: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 157, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 157: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 158, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 158: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 159, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 159: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 160, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 160: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 161, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 161: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 162, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 162: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 163, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 163: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 164, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 164: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 165, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 165: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 166, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 166: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 167, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 167: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 168, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 168: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 169, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 169: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 170, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 170: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 171, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 171: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 172, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 172: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 173, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 173: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 174, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 174: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 175, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 175: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 176, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 176: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 177, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 177: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 178, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 178: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 179, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 179: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 180, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 180: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 181, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 181: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 182, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 182: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 183, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 183: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 184, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 184: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 185, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 185: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 186, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 186: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 187, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 187: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 188, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 188: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 189, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 189: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 190, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 190: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 191, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 191: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 192, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 192: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 193, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 193: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 194, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 194: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 195, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 195: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 196, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 196: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetching page: 197, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Fetched page 197: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetching page: 198, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
+Fetched page 198: 0 games
+paging.nextPage: None
+Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetching page: 199, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
+Fetched page 199: 8 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetching page: 200, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
+Fetched page 200: 20 games
+paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
+Total games fetched: 48
+        id  sportId  competitionId  seasonNum  stageNum  groupNum  roundNum  \
+0  4395844        1            552         72         2         1         9   
+1  4395845        1            552         72         2         2         9   
+2  4395846        1            552         72         2         2         9   
+3  4395849        1            552         72         2         2         9   
+4  4395851        1            552         72         2         2         9   
+
+  roundName    stageName           groupName  ... hasPreviousMeetings  \
+0     Round  Final Stage  Championship Group  ...               False   
+1     Round  Final Stage    Relegation Group  ...               False   
+2     Round  Final Stage    Relegation Group  ...               False   
+3     Round  Final Stage    Relegation Group  ...               False   
+4     Round  Final Stage    Relegation Group  ...               False   
+
+  hasRecentMatches  hasBets hasPlayerBets winner  homeAwayTeamOrder  \
+0            False    False         False      0                  0   
+1            False    False         False      0                  0   
+2            False    False         False      0                  0   
+3            False    False         False      0                  0   
+4            False    False         False      0                  0   
+
+   hasPointByPoint  hasVideo hasBetsTeaser  hasNews  
+0            False     False           NaN      NaN  
+1            False     False           NaN      NaN  
+2            False     False           NaN      NaN  
+3            False     False           NaN      NaN  
+4            False     False           NaN      NaN  
+
+[5 rows x 41 columns]
