@@ -1,680 +1,1491 @@
-Fetching page: 1, URL: https://webws.365scores.com/web/games/results/?appTypeId=5&langId=1&timezoneName=Asia%2FHebron&userCountryId=115&competitions=552&showOdds=true&includeTopBettingOpportunity=1&games=50
-Fetched page 1: 16 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395844&direction=1&withmainodds=true
-Fetching page: 2, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395844&direction=1&withmainodds=true
-Fetched page 2: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395894&direction=1&withmainodds=true
-Fetching page: 3, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&apptype=5&competitions=552&games=50&aftergame=4395894&direction=1&withmainodds=true
-Fetched page 3: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 4, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 4: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 5, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 5: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 6, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 6: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 7, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 7: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 8, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 8: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 9, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 9: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 10, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 10: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 11, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 11: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 12, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 12: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 13, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 13: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 14, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 14: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 15, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 15: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 16, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 16: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 17, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 17: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 18, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 18: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 19, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 19: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 20, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 20: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 21, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 21: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 22, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 22: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 23, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 23: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 24, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 24: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 25, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 25: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 26, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 26: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 27, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 27: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 28, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 28: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 29, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 29: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 30, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 30: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 31, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 31: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 32, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 32: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 33, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 33: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 34, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 34: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 35, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 35: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 36, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 36: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 37, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 37: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 38, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 38: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 39, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 39: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 40, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 40: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 41, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 41: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 42, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 42: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 43, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 43: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 44, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 44: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 45, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 45: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 46, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 46: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 47, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 47: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 48, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 48: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 49, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 49: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 50, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 50: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 51, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 51: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 52, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 52: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 53, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 53: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 54, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 54: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 55, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 55: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 56, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 56: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 57, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 57: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 58, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 58: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 59, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 59: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 60, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 60: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 61, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 61: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 62, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 62: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 63, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 63: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 64, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 64: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 65, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 65: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 66, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 66: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 67, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 67: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 68, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 68: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 69, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 69: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 70, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 70: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 71, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 71: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 72, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 72: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 73, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 73: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 74, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 74: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 75, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 75: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 76, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 76: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 77, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 77: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 78, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 78: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 79, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 79: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 80, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 80: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 81, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 81: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 82, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 82: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 83, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 83: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 84, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 84: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 85, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 85: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 86, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 86: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 87, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 87: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 88, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 88: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 89, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 89: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 90, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 90: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 91, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 91: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 92, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 92: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 93, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 93: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 94, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 94: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 95, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 95: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 96, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 96: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 97, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 97: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 98, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 98: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 99, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 99: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 100, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 100: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 101, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 101: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 102, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 102: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 103, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 103: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 104, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 104: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 105, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 105: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 106, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 106: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 107, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 107: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 108, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 108: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 109, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 109: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 110, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 110: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 111, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 111: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 112, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 112: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 113, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 113: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 114, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 114: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 115, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 115: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 116, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 116: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 117, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 117: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 118, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 118: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 119, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 119: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 120, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 120: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 121, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 121: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 122, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 122: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 123, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 123: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 124, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 124: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 125, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 125: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 126, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 126: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 127, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 127: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 128, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 128: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 129, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 129: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 130, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 130: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 131, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 131: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 132, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 132: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 133, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 133: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 134, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 134: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 135, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 135: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 136, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 136: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 137, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 137: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 138, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 138: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 139, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 139: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 140, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 140: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 141, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 141: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 142, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 142: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 143, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 143: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 144, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 144: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 145, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 145: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 146, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 146: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 147, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 147: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 148, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 148: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 149, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 149: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 150, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 150: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 151, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 151: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 152, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 152: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 153, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 153: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 154, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 154: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 155, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 155: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 156, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 156: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 157, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 157: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 158, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 158: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 159, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 159: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 160, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 160: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 161, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 161: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 162, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 162: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 163, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 163: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 164, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 164: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 165, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 165: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 166, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 166: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 167, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 167: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 168, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 168: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 169, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 169: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 170, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 170: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 171, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 171: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 172, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 172: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 173, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 173: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 174, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 174: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 175, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 175: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 176, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 176: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 177, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 177: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 178, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 178: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 179, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 179: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 180, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 180: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 181, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 181: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 182, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 182: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 183, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 183: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 184, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 184: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 185, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 185: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 186, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 186: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 187, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 187: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 188, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 188: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 189, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 189: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 190, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 190: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 191, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 191: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 192, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 192: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 193, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 193: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 194, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 194: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 195, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 195: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 196, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 196: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetching page: 197, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Fetched page 197: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetching page: 198, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395844&direction=1
-Fetched page 198: 0 games
-paging.nextPage: None
-Inferred next page: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetching page: 199, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395894&direction=1
-Fetched page 199: 8 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetching page: 200, URL: https://webws.365scores.com/web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4393030&direction=1
-Fetched page 200: 20 games
-paging.nextPage: /web/games/?langId=1&timezoneId=15&userCountryId=115&competitions=552&games=50&aftergame=4395872&direction=1
-Total games fetched: 48
-        id  sportId  competitionId  seasonNum  stageNum  groupNum  roundNum  \
-0  4395844        1            552         72         2         1         9   
-1  4395845        1            552         72         2         2         9   
-2  4395846        1            552         72         2         2         9   
-3  4395849        1            552         72         2         2         9   
-4  4395851        1            552         72         2         2         9   
+جاري تحميل ملف الـ pickle من: C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl
+تم تحميل الـ DataFrame بنجاح. يحتوي على 322 صفوف.
+جاري معالجة 322 مباراة...
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395844. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395844. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395845. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395845. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395846. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395846. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395849. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395849. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395851. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395851. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395847. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395847. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395848. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395848. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395850. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395850. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395852. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395852. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395853. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395853. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395854. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4395854. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395854. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395855. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395855. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395857. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395857. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395856. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395856. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395858. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395858. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395859. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395859. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393278. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393278. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393275. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393275. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393277. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393277. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393274. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393274. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395883. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395883. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395882. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'events' غير موجود أو ليس قائمة للمباراة 4395882. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395882. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395881. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395881. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395880. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395880. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395879. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395879. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395878. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395878. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395876. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395876. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395877. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395877. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395875. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395875. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395873. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395873. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395872. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395872. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395874. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395874. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395870. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395870. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395871. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395871. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395868. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395868. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395869. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395869. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273776. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273776. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273777. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273777. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273777: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273775. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273775. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273774. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273774. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273769. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273769. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273773. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273773. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273770. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273770. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273771. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273771. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273772. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273772. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273764. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273764. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273764: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273766. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273766. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273768. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273768. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273763. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273763. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273765. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273765. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273767. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273767. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392746. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392746. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392747. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'events' غير موجود أو ليس قائمة للمباراة 4392747. (سيتم تخطيه)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4392747. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392747. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392748. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392748. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4392748: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392749. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392749. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392750. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392750. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392752. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392752. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392753. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392753. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392754. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392754. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392846. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392846. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4392847. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4392847. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393020. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393020. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393022. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393022. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393024. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393024. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393026. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393026. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393028. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393028. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393030. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393030. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393057. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393057. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393059. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393059. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393061. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393061. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393063. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393063. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393065. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393065. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393067. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393067. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393068. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393068. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393070. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393070. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393281. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393281. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393280. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393280. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393279. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393279. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4393276. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4393276. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395861. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395861. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395862. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395862. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395863. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395863. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4395860. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4395860. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273782. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273782. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273781. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273781. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273779. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273779. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273780. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273780. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273778. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273778. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273803. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273803. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273804. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273804. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273801. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273801. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273802. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273802. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273800. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273800. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273799. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273799. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273797. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273797. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273798. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273798. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273798: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273796. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273796. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273795. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273795. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273794. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273794. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273792. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273792. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273793. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273793. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273791. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273791. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273790. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273790. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273787. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273787. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273789. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273789. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273789: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273786. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273786. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273788. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273788. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273784. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273784. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273785. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273785. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273783. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273783. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273852. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273852. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273851. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273851. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273849. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273849. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273848. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273848. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273850. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273850. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273850: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273847. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273847. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273845. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273845. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273846. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273846. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273844. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273844. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273842. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273842. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273843. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273843. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273840. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273840. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273840: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273841. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273841. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273839. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273839. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273837. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273837. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273838. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273838. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273836. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273836. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273835. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273835. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273833. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273833. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273834. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273834. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273834: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272166. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272166. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272166. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4272166: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272170. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272170. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272170. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272172. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272172. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272172. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272171. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272171. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272173. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272173. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272174. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272174. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272175. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272175. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272176. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272176. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272177. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272177. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272178. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272178. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4272178: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272180. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272180. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272179. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272179. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272181. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272181. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272182. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272182. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272183. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272183. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273887. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273887. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273888. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273888. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273886. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273886. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273885. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273885. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273883. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273883. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273884. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273884. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273884: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273824. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273824. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273825. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273825. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273823. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273823. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273821. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273821. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273822. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273822. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273819. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273819. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273820. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273820. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273818. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273818. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273817. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273817. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273815. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273815. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273816. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273816. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273814. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273814. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273811. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273811. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273812. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273812. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273812: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273810. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273810. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273813. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273813. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273813: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273809. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273809. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273807. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273807. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273806. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273806. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273806: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273808. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273808. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273805. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273805. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273875. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273875. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273876. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273876. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273873. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273873. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273874. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273874. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273872. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273872. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273870. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273870. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273869. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273869. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273867. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273867. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273868. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273868. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273866. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273866. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273864. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273864. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273864: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273865. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273865. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273862. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273862. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273863. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273863. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273861. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273861. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273860. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273860. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273858. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273858. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273859. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273859. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273856. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273856. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273857. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273857. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273857: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273855. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273855. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273831. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273831. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273832. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273832. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273830. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273830. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273828. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273828. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273829. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273829. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273827. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273827. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273826. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273826. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273826: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273880. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273880. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273882. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273882. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273881. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273881. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273878. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273878. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273879. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273879. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273877. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273877. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273853. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273853. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273854. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273854. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4273871. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4273871. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4273871: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272110. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272110. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272110. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272111. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272111. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272111. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272168. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272168. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272168. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272169. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272169. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272169. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4272167. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4272167. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4272167. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270760. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270760. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270760. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4270760: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270759. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270759. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270759. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270763. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270763. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270763. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270762. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270762. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270762. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270765. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270765. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270765. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270769. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270769. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270769. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4270764. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4270764. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4270764. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055169. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055169. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055169. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055176. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055176. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055176. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055176: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055193. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055193. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055193. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157516. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157516. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157516. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157503. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157503. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157503. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157507. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157507. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157507. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157504. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157504. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157504. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157505. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157505. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157505. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157506. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157506. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157506. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157508. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157508. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157508. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157508: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157511. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157511. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157511. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157509. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157509. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157509. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157509: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157510. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157510. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157510. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157512. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157512. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157512. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157513. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157513. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157513. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157514. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157514. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157514. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157515. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157515. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157515. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157515: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157517. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157517. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157517. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157517: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157520. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157520. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157520. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157518. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157518. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157518. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157519. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157519. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157519. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157312. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157312. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157312. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157309. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157309. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157309. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157311. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157311. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157311. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157308. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157308. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157308. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157310. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157310. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157310. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157313. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157313. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157313. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157313: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055129. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055129. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055129. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055130. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055130. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055130. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055136. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055136. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055136. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055140. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055140. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055140. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157314. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157314. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157314. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157315. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157315. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157315. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157316. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157316. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157316. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157317. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157317. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157317. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157318. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157318. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157318. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157319. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157319. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157319. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157320. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157320. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157320. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4157320: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157321. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157321. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157321. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157322. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157322. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157322. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055173. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055173. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055173. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055223. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055223. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055223. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055159. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055159. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055159. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055198. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055198. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055198. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055198: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055199. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055199. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055199. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055200. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055200. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055200. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055201. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055201. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055201. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055202. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055202. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055202. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951141. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951141. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951141. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951142. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951142. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951142. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055203. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055203. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055203. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055204. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055204. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055204. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055204: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055205. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055205. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055205. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055206. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055206. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055206. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055207. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055207. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055207. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055208. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055208. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055208. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055209. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055209. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055209. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055210. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055210. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055210. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055211. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'events' غير موجود أو ليس قائمة للمباراة 4055211. (سيتم تخطيه)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055211. (سيتم تخطيه)
+    - تحذير: المفتاح 'topPerformers' غير موجود أو ليس قاموساً للمباراة 4055211. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055211. (سيتم تخطيه)
+    - تحذير: المفتاح 'officials' غير موجود أو ليس قائمة للمباراة 4055211. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055212. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055212. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055212. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055213. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055213. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055213. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055214. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055214. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055214. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055215. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055215. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055215. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055216. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055216. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055216. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055224. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055224. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055224. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055225. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055225. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055225. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055226. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055226. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055226. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055227. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055227. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055227. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055228. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055228. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055228. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055232. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055232. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055232. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055232: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055231. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055231. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055231. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055233. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055233. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055233. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055234. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055234. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055234. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055235. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055235. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055235. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055236. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055236. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055236. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055238. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055238. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055238. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055237. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055237. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055237. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951178. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951178. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951178. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055230. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055230. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055230. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951158. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951158. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951158. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055221. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055221. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055221. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055221: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951182. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951182. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951182. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951186. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951186. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951186. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157303. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157303. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157303. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157304. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157304. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157304. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4157305. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4157305. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4157305. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055219. (قد يؤثر على ربط أسماء اللاعبين)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 848, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055219. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055219. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055218. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055218. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055218. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055220. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055220. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055220. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951146. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951146. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951146. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055222. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055222. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055222. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951126. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951126. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951126. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951131. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951131. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951131. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951124. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951124. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951124. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 3951128. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 3951128. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 3951128. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055194. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055194. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055194. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055229. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055229. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055229. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055217. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055217. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055217. (سيتم تخطيه)
+    - خطأ في معالجة المباراة 4055217: 'NoneType' object has no attribute 'get'
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055195. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055195. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055195. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055196. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055196. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055196. (سيتم تخطيه)
+    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة 4055197. (قد يؤثر على ربط أسماء اللاعبين)
+    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة 4055197. (سيتم تخطيه)
+    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة 4055197. (سيتم تخطيه)
+Traceback (most recent call last):
+  File "C:\Users\E.abed\AppData\Local\Temp\ipykernel_3232\1313682004.py", line 823, in extract_data_to_dataframes
+    'formation_name': player_data.get('formation', {}).get('name'),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
 
-  roundName    stageName           groupName  ... hasPreviousMeetings  \
-0     Round  Final Stage  Championship Group  ...               False   
-1     Round  Final Stage    Relegation Group  ...               False   
-2     Round  Final Stage    Relegation Group  ...               False   
-3     Round  Final Stage    Relegation Group  ...               False   
-4     Round  Final Stage    Relegation Group  ...               False   
+اكتمل استخلاص البيانات إلى DataFrames.
 
-  hasRecentMatches  hasBets hasPlayerBets winner  homeAwayTeamOrder  \
-0            False    False         False      0                  0   
-1            False    False         False      0                  0   
-2            False    False         False      0                  0   
-3            False    False         False      0                  0   
-4            False    False         False      0                  0   
+--- نتائج DataFrames بعد المعالجة ---
+عدد الصفوف في df_matches: 322
+عدد الصفوف في df_players: 13504
+عدد الصفوف في df_events: 4586
+عدد الصفوف في df_chart_events: 5419
+عدد الصفوف في df_top_performers: 1727
+عدد الصفوف في df_widgets: 594
+عدد الصفوف في df_officials: 0
+عدد الصفوف في df_stages: 873
 
-   hasPointByPoint  hasVideo hasBetsTeaser  hasNews  
-0            False     False           NaN      NaN  
-1            False     False           NaN      NaN  
-2            False     False           NaN      NaN  
-3            False     False           NaN      NaN  
-4            False     False           NaN      NaN  
+--- أول 5 صفوف من df_players (اللاعبون) ---
 
-[5 rows x 41 columns]
+   matchId  playerId playerName    teamName  isHomeTeam positionName  \
+0  4395844   9157816       None  Zamalek SC        True   Goalkeeper   
+1  4395844   3487214       None  Zamalek SC        True     Defender   
+2  4395844  50578373       None  Zamalek SC        True     Defender   
+3  4395844   3487219       None  Zamalek SC        True     Defender   
+4  4395844    416760       None  Zamalek SC        True     Defender   
+
+   isStarter formation_name  ranking  popularityRank  ...  stat_Shots Blocked  \
+0      False     Goalkeeper      7.6               0  ...                 NaN   
+1      False      Left Back      7.2               0  ...                 NaN   
+2      False    Centre Back      6.6               0  ...                 NaN   
+3      False    Centre Back      6.5               0  ...                 NaN   
+4      False     Right Back      6.6               0  ...                 NaN   
+
+   stat_Big Chances Missed stat_Played Sweeper stat_Penalties Saved  \
+0                      NaN                 NaN                  NaN   
+1                      NaN                 NaN                  NaN   
+2                      NaN                 NaN                  NaN   
+3                      NaN                 NaN                  NaN   
+4                      NaN                 NaN                  NaN   
+
+  stat_Penalty Committed stat_Penalty Won stat_High Claims  \
+0                    NaN              NaN              NaN   
+1                    NaN              NaN              NaN   
+2                    NaN              NaN              NaN   
+3                    NaN              NaN              NaN   
+4                    NaN              NaN              NaN   
+
+  stat_Penalty Missed stat_Error Led To Goal stat_Error Led To Shot  
+0                 NaN                    NaN                    NaN  
+1                 NaN                    NaN                    NaN  
+2                 NaN                    NaN                    NaN  
+3                 NaN                    NaN                    NaN  
+4                 NaN                    NaN                    NaN  
+
+[5 rows x 59 columns]
+
+--- أول 5 صفوف من df_events (الأحداث) ---
+
+   order gameTimeDisplay  gameTime  addedTime  isMajor  \
+0      1             23'      23.0          0    False   
+1      2             26'      26.0          0     True   
+2      3             43'      43.0          0    False   
+3      4             45'      45.0          1    False   
+4      5             46'      46.0          0    False   
+
+                                           eventType  playerId  competitorId  \
+0  {'id': 2, 'name': 'Yellow Card', 'subTypeId': ...   3487214          8201   
+1  {'id': 1, 'name': 'Goal', 'subTypeId': 1, 'sub...  45190845          8201   
+2  {'id': 2, 'name': 'Yellow Card', 'subTypeId': ...  67752388         46242   
+3  {'id': 12, 'name': 'Woodwork', 'subTypeId': -1...  45190845          8201   
+4  {'id': 1000, 'name': 'Substitution', 'subTypeI...   3403495          8201   
+
+   statusId  stageId  num  gameTimeAndStatusDisplayType extraPlayers  \
+0         6        7    1                             2           []   
+1         6        7    1                             2    [3487214]   
+2         6        7    2                             2           []   
+3         6        7    1                             2           []   
+4         8        9    5                             2    [4225361]   
+
+     teamName  matchId  
+0  Zamalek SC  4395844  
+1  Zamalek SC  4395844  
+2      Pharco  4395844  
+3  Zamalek SC  4395844  
+4  Zamalek SC  4395844  
+
+--- أول 5 صفوف من df_chart_events (أحداث الرسم البياني) ---
+
+        key time minute  type  subType    playerId    xg  xgot    bodyPart  \
+0  14395844  12'   None   0.0      3.0   3184639.0  0.04  0.00  Right Foot   
+1  24395844  13'   None   0.0      4.0  38957228.0  0.09  0.00  Right Foot   
+2  34395844  21'   None   0.0      4.0  50575208.0  0.05  0.08  Right Foot   
+3  44395844  23'   None   0.0      7.0  67752388.0  0.10  0.00      Header   
+4  54395844  26'   None   0.0      4.0  45190845.0  0.01  0.14  Right Foot   
+
+  goalDescription                      outcome  competitorNum     x     y  \
+0            None  {'id': 1, 'name': 'Missed'}            1.0  None  None   
+1            None  {'id': 1, 'name': 'Missed'}            1.0  None  None   
+2      Low Centre   {'id': 2, 'name': 'Saved'}            2.0  None  None   
+3     Close Right  {'id': 1, 'name': 'Missed'}            2.0  None  None   
+4       High Left    {'id': 0, 'name': 'Goal'}            1.0  None  None   
+
+     teamName involvedTeam  matchId chartEventTypeCategory  
+0  Zamalek SC   Zamalek SC  4395844                 events  
+1  Zamalek SC   Zamalek SC  4395844                 events  
+2      Pharco       Pharco  4395844                 events  
+3      Pharco       Pharco  4395844                 events  
+4  Zamalek SC   Zamalek SC  4395844                 events  
+
+--- أول 5 صفوف من df_top_performers (أفضل اللاعبين أداءً) ---
+
+   matchId categoryName  playerId  athleteId            playerName  \
+0  4395844     Attacker    454974       7781             Shikabala   
+1  4395844     Attacker  46233393      80204  Zouhair El Moutaraji   
+2  4395844   Midfielder  67787918     171643      Mohamed El Sayed   
+3  4395844   Midfielder  67752388     132086        Babacar Ndiaye   
+4  4395844     Defender   3487214      49591          Ahmed Fatouh   
+
+     teamName  isHomeTeam      positionName positionShortName  imageVersion  \
+0  Zamalek SC        True     Right Forward     Right Forward            13   
+1      Pharco       False      Left Forward      Left Forward            11   
+2  Zamalek SC        True  Central Midfield  Central Midfield             6   
+3      Pharco       False       Centre Back       Centre Back             5   
+4  Zamalek SC        True         Left Back         Left Back            19   
+
+             nameForURL stat_Expected Goals stat_Shots On Target stat_Minutes  \
+0             shikabala                0.07                    0           33   
+1  zouhair-el-moutaraji                0.04                    1           25   
+2          mohamed-seha                0.38                    1           45   
+3        babacar-ndiaye                 0.1                    0           90   
+4          ahmed-fatouh                 NaN                  NaN           68   
+
+  stat_Interceptions stat_Clearances stat_Goals stat_Assists  \
+0                NaN             NaN        NaN          NaN   
+1                NaN             NaN        NaN          NaN   
+2                NaN             NaN        NaN          NaN   
+3                NaN             NaN        NaN          NaN   
+4                  0               1        NaN          NaN   
+
+  stat_Yellow Cards stat_Red Cards  
+0               NaN            NaN  
+1               NaN            NaN  
+2               NaN            NaN  
+3               NaN            NaN  
+4               NaN            NaN  
+
+--- أول 5 صفوف من df_officials (المسؤولون) ---
+
+Empty DataFrame
+Columns: []
+Index: []
+
+
+انظر خنا هذا شكل مفتح 
+"chartEvents": {
+  "events": [
+    {
+      "xg": "0.04",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "14395844",
+      "competitorNum": 1,
+      "time": "12'",
+      "status": 6,
+      "playerId": 3184639,
+      "line": 53.6,
+      "side": 72.6,
+      "type": 0,
+      "subType": 3,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 48.1,
+        "z": 62.5,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.09",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "24395844",
+      "competitorNum": 1,
+      "time": "13'",
+      "status": 6,
+      "playerId": 38957228,
+      "line": 65.0,
+      "side": 96.1,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 32.1,
+        "z": 19.4,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.05",
+      "xgot": "0.08",
+      "bodyPart": "Right Foot",
+      "goalDescription": "Low Centre",
+      "key": "34395844",
+      "competitorNum": 2,
+      "time": "21'",
+      "status": 6,
+      "playerId": 50575208,
+      "line": 33.7,
+      "side": 88.1,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 51.0,
+        "z": 13.3,
+        "id": 2,
+        "name": "Saved"
+      }
+    },
+    {
+      "xg": "0.10",
+      "xgot": "0.00",
+      "bodyPart": "Header",
+      "goalDescription": "Close Right",
+      "key": "44395844",
+      "competitorNum": 2,
+      "time": "23'",
+      "status": 6,
+      "playerId": 67752388,
+      "line": 42.4,
+      "side": 93.8,
+      "type": 0,
+      "subType": 7,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 42.2,
+        "z": 31.9,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.01",
+      "xgot": "0.14",
+      "bodyPart": "Right Foot",
+      "goalDescription": "High Left",
+      "key": "54395844",
+      "competitorNum": 1,
+      "time": "26'",
+      "status": 6,
+      "playerId": 45190845,
+      "line": 38.1,
+      "side": 70.3,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 53.1,
+        "z": 20.3,
+        "id": 0,
+        "name": "Goal"
+      }
+    },
+    {
+      "xg": "0.11",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "64395844",
+      "competitorNum": 2,
+      "time": "45 + 1'",
+      "status": 6,
+      "playerId": 50575208,
+      "line": 45.2,
+      "side": 86.0,
+      "type": 0,
+      "subType": 7,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 62.9,
+        "z": 11.1,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.02",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "74395844",
+      "competitorNum": 1,
+      "time": "45 + 2'",
+      "status": 6,
+      "playerId": 45190845,
+      "line": 59.1,
+      "side": 71.0,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 55.2,
+        "z": 22.8,
+        "id": 3,
+        "name": "Post"
+      }
+    },
+    {
+      "xg": "0.18",
+      "xgot": "0.00",
+      "bodyPart": "Left foot",
+      "key": "84395844",
+      "competitorNum": 1,
+      "time": "51'",
+      "status": 8,
+      "playerId": 67886161,
+      "line": 56.9,
+      "side": 89.5,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 50.1,
+        "z": 39.2,
+        "id": 3,
+        "name": "Post"
+      }
+    },
+    {
+      "xg": "0.02",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "94395844",
+      "competitorNum": 1,
+      "time": "53'",
+      "status": 8,
+      "playerId": 45190845,
+      "line": 68.4,
+      "side": 65.4,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 45.4,
+        "z": 69.4,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.38",
+      "xgot": "0.76",
+      "bodyPart": "Right Foot",
+      "goalDescription": "Low Centre",
+      "key": "104395844",
+      "competitorNum": 1,
+      "time": "59'",
+      "status": 8,
+      "playerId": 67787918,
+      "line": 50.8,
+      "side": 95.2,
+      "type": 0,
+      "subType": 7,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 51.8,
+        "z": 7.6,
+        "id": 0,
+        "name": "Goal"
+      }
+    },
+    {
+      "xg": "0.03",
+      "xgot": "0.01",
+      "bodyPart": "Header",
+      "goalDescription": "Low Centre",
+      "key": "114395844",
+      "competitorNum": 2,
+      "time": "69'",
+      "status": 8,
+      "playerId": 53890868,
+      "line": 57.5,
+      "side": 86.7,
+      "type": 0,
+      "subType": 7,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 50.5,
+        "z": 11.4,
+        "id": 2,
+        "name": "Saved"
+      }
+    },
+    {
+      "xg": "0.07",
+      "xgot": "0.00",
+      "bodyPart": "Left foot",
+      "goalDescription": "Low Left",
+      "key": "124395844",
+      "competitorNum": 1,
+      "time": "89'",
+      "status": 8,
+      "playerId": 454974,
+      "line": 35.2,
+      "side": 76.5,
+      "type": 0,
+      "subType": 3,
+      "gameId": 4395844,
+      "outcome": {
+        "x": 85.9,
+        "y": 41.9,
+        "id": 4,
+        "name": "Blocked"
+      }
+    },
+    {
+      "xg": "0.03",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "key": "134395844",
+      "competitorNum": 2,
+      "time": "90 + 1'",
+      "status": 8,
+      "playerId": 46233393,
+      "line": 72.1,
+      "side": 83.8,
+      "type": 0,
+      "subType": 7,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 39.3,
+        "z": 12.5,
+        "id": 1,
+        "name": "Missed"
+      }
+    },
+    {
+      "xg": "0.01",
+      "xgot": "0.02",
+      "bodyPart": "Right Foot",
+      "goalDescription": "Low Centre",
+      "key": "144395844",
+      "competitorNum": 2,
+      "time": "90 + 3'",
+      "status": 8,
+      "playerId": 46233393,
+      "line": 39.2,
+      "side": 69.4,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 51.6,
+        "z": 9.5,
+        "id": 2,
+        "name": "Saved"
+      }
+    },
+    {
+      "xg": "0.01",
+      "xgot": "0.00",
+      "bodyPart": "Right Foot",
+      "goalDescription": "Close High",
+      "key": "154395844",
+      "competitorNum": 2,
+      "time": "90 + 4'",
+      "status": 8,
+      "playerId": 77090794,
+      "line": 25.4,
+      "side": 75.2,
+      "type": 0,
+      "subType": 4,
+      "gameId": 4395844,
+      "outcome": {
+        "y": 51.8,
+        "z": 58.3,
+        "id": 1,
+        "name": "Missed"
+      }
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": 8,
+      "value": 0,
+      "name": "Regular Play"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 6,
+      "name": "1st Half",
+      "symbolName": "1st",
+      "aliasName": "FirstHalf",
+      "sportTypeId": 1,
+      "isActive": true,
+      "isFinished": false,
+      "isNotStarted": false,
+      "isExtraTime": false,
+      "isPenalties": false,
+      "isAbnormal": false,
+      "gameTimeForStatus": false,
+      "autonomicTime": false,
+      "hasEvents": true
+    },
+    {
+      "id": 8,
+      "name": "2nd Half",
+      "symbolName": "2nd",
+      "aliasName": "SecondHalf",
+      "sportTypeId": 1,
+      "isActive": true,
+      "isFinished": false,
+      "isNotStarted": false,
+      "isExtraTime": false,
+      "isPenalties": false,
+      "isAbnormal": false,
+      "gameTimeForStatus": false,
+      "autonomicTime": false,
+      "hasEvents": true
+    }
+  ],
+  "eventSubTypes": [
+    {
+      "id": 75,
+      "value": 3,
+      "name": "Free Kick"
+    },
+    {
+      "id": 76,
+      "value": 4,
+      "name": "Regular Play"
+    },
+    {
+      "id": 79,
+      "value": 7,
+      "name": "Assisted"
+    }
+  ]
+},
