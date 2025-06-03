@@ -689,10 +689,219 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
     """
     تستخرج البيانات من DataFrame المباريات إلى DataFrames منفصلة.
     """
-    # [تنفيذ الدالة كما هي مع الحفاظ على المنطق الأصلي...]
-    pass
+    all_matches_data = []
+    all_players_data = []
+    all_events_data = []
+    all_chart_events_data = []
+    all_top_performers_data = []
+    all_widgets_data = []
+    all_officials_data = []
+    all_stages_data = []
+
+    if 'game' not in df_games.columns or df_games['game'].isnull().all():
+        print("تحذير: عمود 'game' غير موجود أو فارغ في DataFrame المدخل.")
+        return [pd.DataFrame()] * 8
+
+    total_games = len(df_games)
+    print(f"جاري معالجة {total_games} مباراة...")
+
+    for index, row in df_games.iterrows():
+        game_data_dict = row['game']
+        match_id = game_data_dict.get('id', f'unknown_{index}')
+
+        try:
+            filtered_data = process_game_data(game_data_dict, match_id)
+            
+            # 1. بيانات المباريات الأساسية
+            match_info = {
+                'matchId': filtered_data.get('matchId'),
+                'competitionName': filtered_data.get('competitionName'),
+                'startTime': filtered_data.get('startTime'),
+                'statusText': filtered_data.get('statusText'),
+                'shortStatusText': filtered_data.get('shortStatusText'),
+                'gameTimeAndStatus': filtered_data.get('gameTimeAndStatus'),
+                'homeTeamName': filtered_data.get('homeTeam', {}).get('name'),
+                'homeTeamScore': filtered_data.get('homeTeam', {}).get('score'),
+                'awayTeamName': filtered_data.get('awayTeam', {}).get('name'),
+                'awayTeamScore': filtered_data.get('awayTeam', {}).get('score'),
+                'statistics_corners_home': filtered_data.get('statistics', {}).get('corners', {}).get('home'),
+                'statistics_corners_away': filtered_data.get('statistics', {}).get('corners', {}).get('away'),
+                'statistics_shotsOnTarget_home': filtered_data.get('statistics', {}).get('shotsOnTarget', {}).get('home'),
+                'statistics_shotsOnTarget_away': filtered_data.get('statistics', {}).get('shotsOnTarget', {}).get('away'),
+                'statistics_possession_home': filtered_data.get('statistics', {}).get('possession', {}).get('home'),
+                'statistics_possession_away': filtered_data.get('statistics', {}).get('possession', {}).get('away'),
+            }
+            all_matches_data.append(match_info)
+
+            # 2. بيانات اللاعبين
+            for team_key in ['homeTeam', 'awayTeam']:
+                team_data = filtered_data.get(team_key)
+                if team_data and team_data.get('lineups') and team_data['lineups'].get('members'):
+                    for player_data in team_data['lineups']['members']:
+                        player_entry = {
+                            'matchId': match_id,
+                            'playerId': player_data.get('id'),
+                            'playerName': player_data.get('name'),
+                            'teamName': team_data.get('name'),
+                            'isHomeTeam': (team_key == 'homeTeam'),
+                            'positionName': player_data.get('position', {}).get('name') if player_data.get('position') else None,
+                            'isStarter': player_data.get('statusText') == 'Starter',
+                            'formation_name': player_data.get('formation', {}).get('name') if player_data.get('formation') else None,
+                            'ranking': player_data.get('ranking'),
+                            'popularityRank': player_data.get('popularityRank'),
+                            'hasStats': player_data.get('hasStats'),
+                            'nationalId': player_data.get('nationalId'),
+                        }
+                        
+                        # إضافة الإحصائيات
+                        if player_data.get('stats'):
+                            for stat in player_data['stats']:
+                                # تحديد اسم الإحصائية
+                                stat_name = stat.get('name')
+                                stat_type = stat.get('type')
+                                
+                                if stat_name:
+                                    stat_key = f"stat_{stat_name}"
+                                elif stat_type is not None:
+                                    stat_key = f"stat_type_{stat_type}"
+                                else:
+                                    stat_key = "stat_unknown"
+                                
+                                player_entry[stat_key] = stat.get('value')
+                        
+                        all_players_data.append(player_entry)
+
+            # 3. أحداث المباراة
+            if 'events' in filtered_data:
+                for event in filtered_data['events']:
+                    event['matchId'] = match_id
+                    all_events_data.append(event)
+
+            # 4. أحداث الرسم البياني
+            if 'chartEvents' in filtered_data:
+                for event_type, events_list in filtered_data['chartEvents'].items():
+                    for event in events_list:
+                        event['matchId'] = match_id
+                        event['chartEventTypeCategory'] = event_type
+                        all_chart_events_data.append(event)
+
+            # 5. أفضل اللاعبين أداءً
+            if 'topPerformers' in filtered_data:
+                for category in filtered_data['topPerformers']:
+                    for team_key in ['homePlayer', 'awayPlayer']:
+                        player_data = category.get(team_key)
+                        if player_data:
+                            top_perf_entry = {
+                                'matchId': match_id,
+                                'categoryName': category.get('name'),
+                                'playerId': player_data.get('id'),
+                                'athleteId': player_data.get('athleteId'),
+                                'playerName': player_data.get('name'),
+                                'teamName': filtered_data['homeTeam']['name'] if team_key == 'homePlayer' else filtered_data['awayTeam']['name'],
+                                'isHomeTeam': (team_key == 'homePlayer'),
+                                'positionName': player_data.get('positionName'),
+                                'positionShortName': player_data.get('positionShortName'),
+                                'imageVersion': player_data.get('imageVersion'),
+                                'nameForURL': player_data.get('nameForURL')
+                            }
+                            
+                            # إضافة الإحصائيات
+                            if player_data.get('stats'):
+                                for stat in player_data['stats']:
+                                    # تحديد اسم الإحصائية
+                                    stat_name = stat.get('name')
+                                    stat_type = stat.get('type')
+                                    
+                                    if stat_name:
+                                        stat_key = f"stat_{stat_name}"
+                                    elif stat_type is not None:
+                                        stat_key = f"stat_type_{stat_type}"
+                                    else:
+                                        stat_key = "stat_unknown"
+                                    
+                                    top_perf_entry[stat_key] = stat.get('value')
+                            
+                            all_top_performers_data.append(top_perf_entry)
+
+            # 6. الأدوات (Widgets)
+            if 'widgets' in filtered_data:
+                for widget in filtered_data['widgets']:
+                    widget['matchId'] = match_id
+                    all_widgets_data.append(widget)
+
+            # 7. المسؤولون
+            if 'officials' in filtered_data:
+                for official in filtered_data['officials']:
+                    official['matchId'] = match_id
+                    all_officials_data.append(official)
+
+            # 8. مراحل المباراة
+            if 'stages' in filtered_data:
+                for stage in filtered_data['stages']:
+                    stage['matchId'] = match_id
+                    all_stages_data.append(stage)
+
+        except Exception as e:
+            print(f"    - خطأ في معالجة المباراة {match_id}: {e}")
+            import traceback
+            traceback.print_exc()
+
+    # إنشاء DataFrames
+    df_matches = pd.DataFrame(all_matches_data)
+    df_players = pd.DataFrame(all_players_data)
+    df_events = pd.DataFrame(all_events_data)
+    df_chart_events = pd.DataFrame(all_chart_events_data)
+    df_top_performers = pd.DataFrame(all_top_performers_data)
+    df_widgets = pd.DataFrame(all_widgets_data)
+    df_officials = pd.DataFrame(all_officials_data)
+    df_stages = pd.DataFrame(all_stages_data)
+
+    print("\nتم استخلاص البيانات بنجاح!")
+    print(f"  - المباريات: {len(df_matches)} سجل")
+    print(f"  - اللاعبون: {len(df_players)} سجل")
+    print(f"  - الأحداث: {len(df_events)} سجل")
+    print(f"  - أحداث الرسم: {len(df_chart_events)} سجل")
+    print(f"  - أفضل اللاعبين: {len(df_top_performers)} سجل")
+    print(f"  - الأدوات: {len(df_widgets)} سجل")
+    print(f"  - المسؤولون: {len(df_officials)} سجل")
+    print(f"  - المراحل: {len(df_stages)} سجل")
+    
+    return df_matches, df_players, df_events, df_chart_events, df_top_performers, df_widgets, df_officials, df_stages
 
 # ======== الكود الرئيسي للتنفيذ ========
 if __name__ == "__main__":
-    # [الكود الرئيسي للتنفيذ...]
-    pass
+    # مسار ملف البيانات
+    PICKLE_PATH = r'C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl'
+    OUTPUT_DIR = r'C:\Users\E.abed\Desktop\FootballData\processed_data'
+    
+    try:
+        print(f"جاري تحميل البيانات من: {PICKLE_PATH}")
+        df_games = pd.read_pickle(PICKLE_PATH)
+        
+        if not os.path.exists(OUTPUT_DIR):
+            os.makedirs(OUTPUT_DIR)
+            print(f"تم إنشاء مجلد الإخراج: {OUTPUT_DIR}")
+        
+        # معالجة البيانات
+        results = extract_data_to_dataframes(df_games)
+        df_names = [
+            'matches', 'players', 'events', 
+            'chart_events', 'top_performers', 
+            'widgets', 'officials', 'stages'
+        ]
+        
+        # حفظ النتائج
+        for i, df in enumerate(results):
+            if not df.empty:
+                output_path = os.path.join(OUTPUT_DIR, f'df_{df_names[i]}.pkl')
+                df.to_pickle(output_path)
+                print(f"تم حفظ {df_names[i]} ({len(df)} سجل) في: {output_path}")
+        
+        print("\nتم الانتهاء من معالجة جميع البيانات بنجاح!")
+        
+    except FileNotFoundError:
+        print(f"خطأ: الملف {PICKLE_PATH} غير موجود!")
+    except Exception as e:
+        print(f"حدث خطأ غير متوقع: {e}")
+        import traceback
+        traceback.print_exc()
