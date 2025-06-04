@@ -490,6 +490,30 @@ class GameData:
             stages=[GameStage.from_dict(s) for s in stages_data if isinstance(s, dict)]
         )
 
+# ======== دالة استخراج إحصائيات الفريق ========
+def extract_team_stats(competitor: dict) -> dict:
+    """
+    استخراج إحصائيات الفريق إما من statistics أو بجمع stats من جميع اللاعبين (members).
+    يرجع dict مثل: {'corners': {'home': 2, 'away': 3}, ...} أو {'Total Shots': 10, ...}
+    """
+    stats = competitor.get('statistics')
+    if isinstance(stats, dict) and stats:
+        return stats
+    stats_agg = {}
+    if isinstance(competitor.get('lineups'), dict):
+        members = competitor['lineups'].get('members', [])
+        for player in members:
+            for stat in player.get('stats', []):
+                name = stat.get('name')
+                value = stat.get('value')
+                try:
+                    value = float(value)
+                except (TypeError, ValueError):
+                    continue
+                if name:
+                    stats_agg[name] = stats_agg.get(name, 0) + value
+    return stats_agg
+
 # ======== وظائف معالجة البيانات ========
 def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str, Any]:
     """
@@ -552,11 +576,9 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
                         player_id_to_team_name[p_id] = away_team_name
 
     # 5. ملء بيانات اللاعبين من أعضاء الفريق
-    members = game_data_dict.get('members')
-    if isinstance(members, dict):
-        # كما هو في الكود الحالي
-        if 'homeTeamMembers' in members and isinstance(members['homeTeamMembers'], list):
-            for player in members['homeTeamMembers']:
+    if 'members' in game_data_dict and isinstance(game_data_dict['members'], dict):
+        if 'homeTeamMembers' in game_data_dict['members'] and isinstance(game_data_dict['members']['homeTeamMembers'], list):
+            for player in game_data_dict['members']['homeTeamMembers']:
                 p_id = player.get('id')
                 p_name = player.get('name')
                 if p_id and p_name and p_id not in player_id_to_name:
@@ -564,33 +586,16 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
                     if home_team_name and p_id not in player_id_to_team_name:
                         player_id_to_team_name[p_id] = home_team_name
 
-        if 'awayTeamMembers' in members and isinstance(members['awayTeamMembers'], list):
-            for player in members['awayTeamMembers']:
+        if 'awayTeamMembers' in game_data_dict['members'] and isinstance(game_data_dict['members']['awayTeamMembers'], list):
+            for player in game_data_dict['members']['awayTeamMembers']:
                 p_id = player.get('id')
                 p_name = player.get('name')
                 if p_id and p_name and p_id not in player_id_to_name:
                     player_id_to_name[p_id] = p_name
                     if away_team_name and p_id not in player_id_to_team_name:
                         player_id_to_team_name[p_id] = away_team_name
-
-    elif isinstance(members, list):
-        # معالجة القائمة وربط اللاعبين بفريقهم عبر competitorId
-        for player in members:
-            if isinstance(player, dict):
-                p_id = player.get('id')
-                p_name = player.get('name')
-                competitor_id = player.get('competitorId')
-                if p_id and p_name and p_id not in player_id_to_name:
-                    player_id_to_name[p_id] = p_name
-                    # حدد الفريق المناسب
-                    if competitor_id == home_team_id and home_team_name:
-                        player_id_to_team_name[p_id] = home_team_name
-                    elif competitor_id == away_team_id and away_team_name:
-                        player_id_to_team_name[p_id] = away_team_name
-    elif members is None:
-        pass  # لا داعي لأي رسالة هنا
     else:
-        print(f"    - تنبيه: المفتاح 'members' من نوع غير متوقع ({type(members)}) للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'members' غير موجود أو ليس قاموساً للمباراة {match_id}")
 
     # 6. بناء كائنات الفريق باستخدام dataclasses
     home_competitor_obj = None
@@ -699,34 +704,17 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
     else:
         print(f"    - تحذير: المفتاح 'topPerformers' غير موجود للمباراة {match_id}")
 
-    # 10. معالجة الإحصائيات والمعلومات الأخرى
-# 10. معالجة الإحصائيات والمعلومات الأخرى (نسخة ديناميكية)
-def extract_team_stats(competitor: dict) -> dict:
-    """
-    استخراج إحصائيات الفريق إما من statistics أو بجمع stats من جميع اللاعبين (members).
-    يرجع dict مثل: {'corners': {'home': 2, 'away': 3}, ...} أو {'Total Shots': 10, ...}
-    """
-    # أولاً: جرِّب statistics المباشر
-    stats = competitor.get('statistics')
-    if isinstance(stats, dict) and stats:  # إذا فيه بيانات
-        return stats
+    # 10. معالجة الإحصائيات والمعلومات الأخرى (الديناميكية)
+    home_stats = {}
+    away_stats = {}
+    if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict):
+        home_stats = extract_team_stats(game_data_dict['homeCompetitor'])
+    if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict):
+        away_stats = extract_team_stats(game_data_dict['awayCompetitor'])
+    filtered_match_data['homeTeamStats'] = home_stats
+    filtered_match_data['awayTeamStats'] = away_stats
 
-    # ثانياً: جرِّب جمع stats من اللاعبين إذا كان statistics غير موجود أو فارغ
-    stats_agg = {}
-    if isinstance(competitor.get('lineups'), dict):
-        members = competitor['lineups'].get('members', [])
-        for player in members:
-            for stat in player.get('stats', []):
-                name = stat.get('name')
-                value = stat.get('value')
-                # جمع القيم الرقمية فقط، تجاهل النصوص مثل "90'"
-                try:
-                    value = float(value)
-                except (TypeError, ValueError):
-                    continue
-                if name:
-                    stats_agg[name] = stats_agg.get(name, 0) + value
-    return stats_agg
+    return filtered_match_data
 
 def extract_data_to_dataframes(df_games: pd.DataFrame):
     """
@@ -756,19 +744,28 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
             filtered_data = process_game_data(game_data_dict, match_id)
             
             # 1. بيانات المباريات الأساسية
-            # داخل process_game_data قبل return filtered_match_data:
-            home_stats = {}
-            away_stats = {}
-            if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict):
-                home_stats = extract_team_stats(game_data_dict['homeCompetitor'])
-            if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict):
-                away_stats = extract_team_stats(game_data_dict['awayCompetitor'])
+            home_stats = filtered_data.get('homeTeamStats', {})
+            away_stats = filtered_data.get('awayTeamStats', {})
 
-            filtered_match_data['homeTeamStats'] = home_stats
-            filtered_match_data['awayTeamStats'] = away_stats
-
-            # لم تعد بحاجة لإضافة filtered_match_data['statistics'] بالطريقة السابقة
-            return filtered_match_data
+            match_info = {
+                'matchId': filtered_data.get('matchId'),
+                'competitionName': filtered_data.get('competitionName'),
+                'startTime': filtered_data.get('startTime'),
+                'statusText': filtered_data.get('statusText'),
+                'shortStatusText': filtered_data.get('shortStatusText'),
+                'gameTimeAndStatus': filtered_data.get('gameTimeAndStatus'),
+                'homeTeamName': filtered_data.get('homeTeam', {}).get('name'),
+                'homeTeamScore': filtered_data.get('homeTeam', {}).get('score'),
+                'awayTeamName': filtered_data.get('awayTeam', {}).get('name'),
+                'awayTeamScore': filtered_data.get('awayTeam', {}).get('score'),
+                'statistics_corners_home': home_stats.get('Corners') or (home_stats.get('corners', {}).get('home') if isinstance(home_stats.get('corners'), dict) else None),
+                'statistics_corners_away': away_stats.get('Corners') or (away_stats.get('corners', {}).get('away') if isinstance(away_stats.get('corners'), dict) else None),
+                'statistics_shotsOnTarget_home': home_stats.get('Shots On Target') or (home_stats.get('shotsOnTarget', {}).get('home') if isinstance(home_stats.get('shotsOnTarget'), dict) else None),
+                'statistics_shotsOnTarget_away': away_stats.get('Shots On Target') or (away_stats.get('shotsOnTarget', {}).get('away') if isinstance(away_stats.get('shotsOnTarget'), dict) else None),
+                'statistics_possession_home': home_stats.get('Possession') or (home_stats.get('possession', {}).get('home') if isinstance(home_stats.get('possession'), dict) else None),
+                'statistics_possession_away': away_stats.get('Possession') or (away_stats.get('possession', {}).get('away') if isinstance(away_stats.get('possession'), dict) else None),
+            }
+            all_matches_data.append(match_info)
 
             # 2. بيانات اللاعبين
             for team_key in ['homeTeam', 'awayTeam']:
