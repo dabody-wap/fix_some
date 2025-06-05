@@ -3,9 +3,8 @@ import json
 import os
 import dataclasses
 from typing import List, Dict, Any, Optional
-import traceback
 
-# ======== تعريف هياكل البيانات (Data Classes) ========
+# تعريف الـ dataclasses التي تمثل هيكل بياناتك
 @dataclasses.dataclass
 class Position:
     id: Optional[int] = None
@@ -36,7 +35,7 @@ class PlayerStat:
     imageId: Optional[int] = None
 
 @dataclasses.dataclass
-class LineupMember:
+class LineupMember: # تمثل اللاعب داخل التشكيلة (lineups.members)
     id: Optional[int] = None
     status: Optional[int] = None
     statusText: Optional[str] = None
@@ -50,9 +49,9 @@ class LineupMember:
     competitorId: Optional[int] = None
     nationalId: Optional[int] = None
     stats: Optional[List[PlayerStat]] = dataclasses.field(default_factory=list)
-    name: Optional[str] = None
+    name: Optional[str] = None # هذا الحقل مهم لربط الاسم باللاعب
     shortName: Optional[str] = None
-    athleteId: Optional[int] = None  # <<< الحل الجديد
+
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "LineupMember":
@@ -76,16 +75,16 @@ class LineupMember:
             nationalId=data.get('nationalId'),
             stats=[PlayerStat(**s) for s in stats_data if isinstance(s, dict)] if stats_data else [],
             name=data.get('name'),
-            #shortName=data.get('shortName')
-            athleteId=data.get('athleteId')  # <<< الحل الجديد
+            shortName=data.get('shortName')
         )
 
+
 @dataclasses.dataclass
-class Lineup:
+class Lineup: # تمثل معلومات التشكيلة ككل (homeCompetitor.lineups)
     status: Optional[int] = None
     formation: Optional[str] = None
     hasFieldPositions: Optional[bool] = None
-    members: Optional[List[LineupMember]] = dataclasses.field(default_factory=list)
+    members: Optional[List[LineupMember]] = dataclasses.field(default_factory=list) # قائمة اللاعبين
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "Lineup":
@@ -227,6 +226,7 @@ class GameEvent:
 class ChartEventOutcome:
     id: Optional[int] = None
     name: Optional[str] = None
+    # لا نضيف x و y هنا! يجب أن تكون في ChartEvent إذا كانت تمثل إحداثيات الحدث نفسه
 
 @dataclasses.dataclass
 class ChartEvent:
@@ -242,16 +242,18 @@ class ChartEvent:
     goalDescription: Optional[str] = None
     outcome: Optional[ChartEventOutcome] = None
     competitorNum: Optional[int] = None
-    x: Optional[float] = dataclasses.field(default=None)  # <<< التعديل
-    y: Optional[float] = dataclasses.field(default=None)  # <<< التعديل
-    # إضافة حقل جديد للتعامل مع الاسم
-    playerName: Optional[str] = None  # <<< الحل الجديد
+    x: Optional[float] = None # إضافة x هنا
+    y: Optional[float] = None # إضافة y هنا
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "ChartEvent":
+        # Extract outcome data safely
         outcome_data = data.get('outcome')
+        
+        # Prepare outcome_for_dataclass to only contain 'id' and 'name'
         outcome_for_dataclass = None
         if outcome_data and isinstance(outcome_data, dict):
+            # ننشئ قاموساً جديداً يحتوي فقط على المفاتيح المتوقعة لـ ChartEventOutcome
             outcome_for_dataclass = {
                 'id': outcome_data.get('id'),
                 'name': outcome_data.get('name')
@@ -268,16 +270,15 @@ class ChartEvent:
             xgot=data.get('xgot'),
             bodyPart=data.get('bodyPart'),
             goalDescription=data.get('goalDescription'),
+            # نمرر outcome_for_dataclass الذي تم تنقيته
             outcome=ChartEventOutcome(**outcome_for_dataclass) if outcome_for_dataclass else None,
             competitorNum=data.get('competitorNum'),
-            x=data.get('x', None),  # القيمة الافتراضية None
-            y=data.get('y', None),  # القيمة الافتراضية None
-            # نسخ اسم اللاعب مباشرة من البيانات الأصلية
-            playerName=data.get('playerName')  # <<< الحل الجديد
+            x=data.get('x'), # استخراج x مباشرة من بيانات الحدث الأصلية
+            y=data.get('y')  # استخراج y مباشرة من بيانات الحدث الأصلية
         )
 
 @dataclasses.dataclass
-class GameMembers:
+class GameMembers: # تمثل game.members
     homeTeamMembers: Optional[List[Dict[str, Any]]] = dataclasses.field(default_factory=list)
     awayTeamMembers: Optional[List[Dict[str, Any]]] = dataclasses.field(default_factory=list)
 
@@ -299,6 +300,7 @@ class TopPerformerPlayer:
     imageVersion: Optional[int] = None
     nameForURL: Optional[str] = None
     stats: Optional[List[PlayerStat]] = dataclasses.field(default_factory=list)
+
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "TopPerformerPlayer":
@@ -438,7 +440,7 @@ class GameData:
     gameTimeAndStatus: Optional[str] = None
     homeCompetitor: Optional[Competitor] = None
     awayCompetitor: Optional[Competitor] = None
-    members: Optional[Dict[str, List[Dict[str, Any]]]] = dataclasses.field(default_factory=dict) # <<< التعديل
+    members: Optional[GameMembers] = None
     events: Optional[List[GameEvent]] = dataclasses.field(default_factory=list)
     chartEvents: Optional[Dict[str, List[ChartEvent]]] = dataclasses.field(default_factory=dict)
     topPerformers: Optional[TopPerformers] = None
@@ -446,150 +448,129 @@ class GameData:
     statistics: Optional[GameStatistics] = None
     officials: Optional[List[Official]] = dataclasses.field(default_factory=list)
     stages: Optional[List[GameStage]] = dataclasses.field(default_factory=list)
-    
+
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "GameData":
+        # استخراج البيانات بأمان مع قيم افتراضية
+        line_types_ids = data.get('lineTypesIds', [])
+        id_val = data.get('id')
+        sport_id = data.get('sportId')
+        competition_id = data.get('competitionId')
+        status_id = data.get('statusId')
+        season_num = data.get('seasonNum')
+        stage_num = data.get('stageNum')
+        group_num = data.get('groupNum')
+        round_num = data.get('roundNum')
+        round_name = data.get('roundName')
+        stage_name = data.get('stageName')
+        group_name = data.get('groupName')
+        competition_display_name = data.get('competitionDisplayName')
+        start_time = data.get('startTime')
+        status_group = data.get('statusGroup')
+        status_text = data.get('statusText')
+        short_status_text = data.get('shortStatusText')
+        game_time_and_status = data.get('gameTimeAndStatus')
+        
+        # معالجة المتغيرات المتداخلة
         home_comp_data = data.get('homeCompetitor')
         away_comp_data = data.get('awayCompetitor')
-        members=data.get('members', {})
+        members_data = data.get('members')
         events_data = data.get('events', [])
-        chart_events_data = data.get('chartEvents')
+        chart_events_data = data.get('chartEvents', {})
         top_performers_data = data.get('topPerformers')
         widgets_data = data.get('widgets', [])
         statistics_data = data.get('statistics')
         officials_data = data.get('officials', [])
         stages_data = data.get('stages', [])
 
+        # معالجة الأحداث البيانية
         processed_chart_events = {}
-        if chart_events_data and isinstance(chart_events_data, dict):
+        if isinstance(chart_events_data, dict):
             for key, events_list_data in chart_events_data.items():
                 if isinstance(events_list_data, list):
-                    processed_chart_events[key] = [ChartEvent.from_dict(ce) for ce in events_list_data if isinstance(ce, dict)]
-        
+                    processed_chart_events[key] = [
+                        ChartEvent.from_dict(ce) 
+                        for ce in events_list_data 
+                        if isinstance(ce, dict)
+                    ]
+
+        # معالجة المنافسين
+        home_competitor = None
+        if isinstance(home_comp_data, dict):
+            try:
+                home_competitor = Competitor.from_dict(home_comp_data)
+            except Exception as e:
+                print(f"خطأ في معالجة homeCompetitor: {e}")
+                home_competitor = None
+
+        away_competitor = None
+        if isinstance(away_comp_data, dict):
+            try:
+                away_competitor = Competitor.from_dict(away_comp_data)
+            except Exception as e:
+                print(f"خطأ في معالجة awayCompetitor: {e}")
+                away_competitor = None
+
+        # معالجة الأعضاء
+        members_obj = None
+        if isinstance(members_data, dict):
+            try:
+                members_obj = GameMembers.from_dict(members_data)
+            except Exception as e:
+                print(f"خطأ في معالجة members: {e}")
+                members_obj = None
+
+        # معالجة أفضل الأداء
+        top_performers = None
+        if isinstance(top_performers_data, dict):
+            try:
+                top_performers = TopPerformers.from_dict(top_performers_data)
+            except Exception as e:
+                print(f"خطأ في معالجة topPerformers: {e}")
+                top_performers = None
+
+        # معالجة الإحصائيات
+        statistics = None
+        if isinstance(statistics_data, dict):
+            try:
+                statistics = GameStatistics.from_dict(statistics_data)
+            except Exception as e:
+                print(f"خطأ في معالجة statistics: {e}")
+                statistics = None
+
+        # إنشاء نسخة من الكلاس
         return cls(
-            lineTypesIds=data.get('lineTypesIds', []),
-            id=data.get('id'),
-            sportId=data.get('sportId'),
-            competitionId=data.get('competitionId'),
-            statusId=data.get('statusId'),
-            seasonNum=data.get('seasonNum'),
-            stageNum=data.get('stageNum'),
-            groupNum=data.get('groupNum'),
-            roundNum=data.get('roundNum'),
-            roundName=data.get('roundName'),
-            stageName=data.get('stageName'),
-            groupName=data.get('groupName'),
-            competitionDisplayName=data.get('competitionDisplayName'),
-            startTime=data.get('startTime'),
-            statusGroup=data.get('statusGroup'),
-            statusText=data.get('statusText'),
-            shortStatusText=data.get('shortStatusText'),
-            gameTimeAndStatus=data.get('gameTimeAndStatus'),
-            homeCompetitor=Competitor.from_dict(home_comp_data) if home_comp_data and isinstance(home_comp_data, dict) else None,
-            awayCompetitor=Competitor.from_dict(away_comp_data) if away_comp_data and isinstance(away_comp_data, dict) else None,
-            members=GameMembers.from_dict(members) if members and isinstance(members, dict) else None,
+            lineTypesIds=line_types_ids,
+            id=id_val,
+            sportId=sport_id,
+            competitionId=competition_id,
+            statusId=status_id,
+            seasonNum=season_num,
+            stageNum=stage_num,
+            groupNum=group_num,
+            roundNum=round_num,
+            roundName=round_name,
+            stageName=stage_name,
+            groupName=group_name,
+            competitionDisplayName=competition_display_name,
+            startTime=start_time,
+            statusGroup=status_group,
+            statusText=status_text,
+            shortStatusText=short_status_text,
+            gameTimeAndStatus=game_time_and_status,
+            homeCompetitor=home_competitor,
+            awayCompetitor=away_competitor,
+            members=members_obj,
             events=[GameEvent.from_dict(e) for e in events_data if isinstance(e, dict)],
             chartEvents=processed_chart_events,
-            topPerformers=TopPerformers.from_dict(top_performers_data) if top_performers_data and isinstance(top_performers_data, dict) else None,
+            topPerformers=top_performers,
             widgets=[Widget.from_dict(w) for w in widgets_data if isinstance(w, dict)],
-            statistics=GameStatistics.from_dict(statistics_data) if statistics_data and isinstance(statistics_data, dict) else None,
+            statistics=statistics,
             officials=[Official.from_dict(o) for o in officials_data if isinstance(o, dict)],
             stages=[GameStage.from_dict(s) for s in stages_data if isinstance(s, dict)]
         )
-
-import pandas as pd
-import json
-import os
-import dataclasses
-from typing import List, Dict, Any, Optional
-
-# ... (جميع تعريفات الـ dataclasses تبقى كما هي) ...
-
-# متغير عام لتجميع جميع مفاتيح الإحصائيات
-all_stat_keys_global = set()
-
-# ======== دالة استخراج إحصائيات الفريق ========
-def extract_team_stats(competitor: dict) -> dict:
-    """
-    تستخرج إحصائيات الفريق من مصادر متعددة في بنية البيانات
-    وتجمع جميع مفاتيح الإحصائيات التي تم مواجهتها
-    """
-    global all_stat_keys_global
-    stats = {}
-    
-    # المصدر 1: من 'statistics' المباشر
-    if isinstance(competitor.get('statistics'), dict):
-        stats.update(competitor['statistics'])
-        # جمع المفاتيح
-        all_stat_keys_global.update(competitor['statistics'].keys())
-    
-    # المصدر 2: من 'status'
-    elif isinstance(competitor.get('status'), dict):
-        stats.update(competitor['status'])
-        # جمع المفاتيح
-        all_stat_keys_global.update(competitor['status'].keys())
-    
-    # المصدر 3: من إحصائيات اللاعبين
-    elif isinstance(competitor.get('lineups'), dict):
-        members = competitor['lineups'].get('members', [])
-        if members:
-            # نجمع إحصائيات من كل اللاعبين
-            player_stat_keys = set()
-            for player in members:
-                if isinstance(player.get('stats'), list):
-                    for stat in player['stats']:
-                        name = stat.get('name')
-                        value = stat.get('value')
-                        if name:
-                            # جمع اسم الإحصائية
-                            player_stat_keys.add(name)
-                            
-                            # معالجة القيمة
-                            try:
-                                value = float(value)
-                                stats[name] = stats.get(name, 0) + value
-                            except (TypeError, ValueError):
-                                stats[name] = value
-            
-            # إضافة مفاتيح إحصائيات اللاعبين للمجموعة العامة
-            all_stat_keys_global.update(player_stat_keys)
-    
-    return stats
-
-# ======== دالة جلب الإحصائية بعدة احتمالات ========
-def get_stat(stats: dict, *keys):
-    """
-    جلب قيمة إحصائية من dict بعدة احتمالات للأسماء (case-insensitive)
-    ويدعم تنسيقات مختلفة للقيم (أرقام، نصوص، نسب مئوية)
-    """
-    if not isinstance(stats, dict):
-        return None
-    
-    # البحث في المفاتيح المباشرة
-    for key in keys:
-        if key in stats:
-            return stats[key]
-    
-    # البحث بأحرف صغيرة/كبيرة
-    for stat_key, value in stats.items():
-        stat_key_lower = stat_key.lower()
-        for key in keys:
-            if key.lower() == stat_key_lower:
-                return value
-    
-    # البحث في القيم المعقدة (مثل {'home': 5, 'away': 3})
-    for stat_key, value in stats.items():
-        if isinstance(value, dict):
-            for sub_key in ['value', 'home', 'total']:
-                if sub_key in value:
-                    return value[sub_key]
-    
-    return None
-
-
-# ======== وظائف معالجة البيانات ========
-# ======== وظائف معالجة البيانات ========
+# --- الكود الرئيسي لتنقية البيانات وإنشاء DataFrames ---
 def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str, Any]:
     """
     تنقية قاموس بيانات مباراة واحدة واستخلاص المعلومات الرئيسية.
@@ -604,156 +585,106 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
     filtered_match_data['shortStatusText'] = game_data_dict.get('shortStatusText')
     filtered_match_data['gameTimeAndStatus'] = game_data_dict.get('gameTimeAndStatus')
 
-   # 2. نظام متكامل لإدارة بيانات اللاعبين
-    player_id_to_info = {}
-    athlete_id_to_info = {}
-    player_id_to_team = {}
+    # تهيئة القواميس لربط الـ IDs بالأسماء
+    player_id_to_name = {}
+    player_id_to_team_name = {}
     team_id_to_name = {}
 
     home_team_name = None
     away_team_name = None
     home_team_id = None
     away_team_id = None
-    
 
-    # 3. تجميع بيانات اللاعبين من جميع المصادر
-    def register_player(player_data: Dict[str, Any], team_name: str, is_home: bool):
-        """تسجيل لاعب في النظام المركزي"""
-        p_id = player_data.get('id')
-        athlete_id = player_data.get('athleteId')
-        
-        if not p_id and not athlete_id:
-            return
-        
-        # إنشاء أو تحديث سجل اللاعب
-        player_info = {}
-        if p_id and p_id in player_id_to_info:
-            player_info = player_id_to_info[p_id]
-        elif athlete_id and athlete_id in athlete_id_to_info:
-            player_info = athlete_id_to_info[athlete_id]
-        else:
-            player_info = {}
-        
-        # تحديث المعلومات من المصدر الحالي
-        if player_data.get('name'):
-            player_info['name'] = player_data['name']
-        if player_data.get('shortName'):
-            player_info['shortName'] = player_data['shortName']
-        if player_data.get('position') and isinstance(player_data['position'], dict):
-            player_info['positionName'] = player_data['position'].get('name')
-        if player_data.get('jerseyNumber'):
-            player_info['jerseyNumber'] = player_data['jerseyNumber']
-        if player_data.get('nameForURL'):
-            player_info['nameForURL'] = player_data['nameForURL']
-        
-        # التسجيل في أنظمة التخزين
-        if p_id:
-            player_id_to_info[p_id] = player_info
-            player_id_to_team[p_id] = team_name
-        if athlete_id:
-            athlete_id_to_info[athlete_id] = player_info
-            player_id_to_team[athlete_id] = team_name
-
-
-    # 4. تجميع بيانات من الفريق المنزل
+    # --- البدء بملء player_id_to_name و team_id_to_name من Competitors و Lineups (أكثر موثوقية) ---
     if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict):
-        home_comp = game_data_dict['homeCompetitor']
-        home_team_name = home_comp.get('name')
-        home_team_id = home_comp.get('id')
-        team_id_to_name[home_team_id] = home_team_name
+        home_comp_data = game_data_dict['homeCompetitor']
+        home_team_name = home_comp_data.get('name')
+        home_team_id = home_comp_data.get('id')
+        if home_team_id:
+            team_id_to_name[home_team_id] = home_team_name
 
-            
-        # اللاعبين في التشكيلة
-        if home_comp.get('lineups') and isinstance(home_comp['lineups'], dict):
-            members = home_comp['lineups'].get('members', [])
-            for player in members:
-                register_player(player, home_team_name, True)
+        if 'lineups' in home_comp_data and isinstance(home_comp_data['lineups'], dict):
+            if 'members' in home_comp_data['lineups'] and isinstance(home_comp_data['lineups']['members'], list):
+                for player in home_comp_data['lineups']['members']:
+                    p_id = player.get('id')
+                    p_name = player.get('name')
+                    if p_id and p_name:
+                        player_id_to_name[p_id] = p_name
+                    if p_id and home_team_name:
+                        player_id_to_team_name[p_id] = home_team_name
 
-        # اللاعبين في الإحصائيات
-        if home_comp.get('statsCategory') and isinstance(home_comp['statsCategory'], list):
-            for category in home_comp['statsCategory']:
-                if category.get('orderByPosition') and isinstance(category['orderByPosition'], list):
-                    for player in category['orderByPosition']:
-                        register_player(player, home_team_name, True)
-
-                            
-    # 5. تجميع بيانات من الفريق الضيف
     if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict):
-        away_comp = game_data_dict['awayCompetitor']
-        away_team_name = away_comp.get('name')
-        away_team_id = away_comp.get('id')
-        team_id_to_name[away_team_id] = away_team_name
+        away_comp_data = game_data_dict['awayCompetitor']
+        away_team_name = away_comp_data.get('name')
+        away_team_id = away_comp_data.get('id')
+        if away_team_id:
+            team_id_to_name[away_team_id] = away_team_name
 
-        # اللاعبين في التشكيلة
-        if away_comp.get('lineups') and isinstance(away_comp['lineups'], dict):
-            members = away_comp['lineups'].get('members', [])
-            for player in members:
-                register_player(player, away_team_name, False)
-
-
-        # اللاعبين في الإحصائيات
-        if away_comp.get('statsCategory') and isinstance(away_comp['statsCategory'], list):
-            for category in away_comp['statsCategory']:
-                if category.get('orderByPosition') and isinstance(category['orderByPosition'], list):
-                    for player in category['orderByPosition']:
-                        register_player(player, away_team_name, False)
-
-        
-        # 6. تجميع بيانات من أعضاء الفريق (المصدر الأساسي)
+        if 'lineups' in away_comp_data and isinstance(away_comp_data['lineups'], dict):
+            if 'members' in away_comp_data['lineups'] and isinstance(away_comp_data['lineups']['members'], list):
+                for player in away_comp_data['lineups']['members']:
+                    p_id = player.get('id')
+                    p_name = player.get('name')
+                    if p_id and p_name:
+                        player_id_to_name[p_id] = p_name
+                    if p_id and away_team_name:
+                        player_id_to_team_name[p_id] = away_team_name
+    
+    # --- ملء player_id_to_name من game.members (كمصدر ثانوي أو تأكيد) ---
+    # هذا الجزء يمكن أن يكمل الأسماء إذا لم تكن موجودة في lineups
     if 'members' in game_data_dict and isinstance(game_data_dict['members'], dict):
-        members_data = game_data_dict['members']
+        if 'homeTeamMembers' in game_data_dict['members'] and isinstance(game_data_dict['members']['homeTeamMembers'], list):
+            for player in game_data_dict['members']['homeTeamMembers']:
+                p_id = player.get('id')
+                p_name = player.get('name')
+                if p_id and p_name and p_id not in player_id_to_name: # أضف فقط إذا لم يكن موجودًا بالفعل
+                    player_id_to_name[p_id] = p_name
+                    if home_team_name and p_id not in player_id_to_team_name:
+                        player_id_to_team_name[p_id] = home_team_name
 
-        # فريق المنزل
-        if 'homeTeamMembers' in members_data and isinstance(members_data['homeTeamMembers'], list):
-            for player in members_data['homeTeamMembers']:
-                register_player(player, home_team_name, True)
-        
-        # فريق الضيف
-        if 'awayTeamMembers' in members_data and isinstance(members_data['awayTeamMembers'], list):
-            for player in members_data['awayTeamMembers']:
-                register_player(player, away_team_name, False)
+        if 'awayTeamMembers' in game_data_dict['members'] and isinstance(game_data_dict['members']['awayTeamMembers'], list):
+            for player in game_data_dict['members']['awayTeamMembers']:
+                p_id = player.get('id')
+                p_name = player.get('name')
+                if p_id and p_name and p_id not in player_id_to_name: # أضف فقط إذا لم يكن موجودًا بالفعل
+                    player_id_to_name[p_id] = p_name
+                    if away_team_name and p_id not in player_id_to_team_name:
+                        player_id_to_team_name[p_id] = away_team_name
+    else:
+        # هذا التحذير لا يزال مهماً لأنه قد يشير إلى نقص في البيانات الأصلية
+        print(f"    - تحذير: المفتاح 'members' (على مستوى game) غير موجود أو ليس قاموساً للمباراة {match_id}. (قد يؤثر على ربط أسماء اللاعبين)")
 
 
-    # 6. بناء كائنات الفريق باستخدام dataclasses
-    # الفريق المنزل
-    if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict):
-        home_competitor_obj = Competitor.from_dict(game_data_dict['homeCompetitor'])
+    # إعادة بناء معلومات الفرق باستخدام dataclasses الجديدة
+    # الآن سيتم استخدام player_id_to_name الذي تم إنشاؤه مسبقًا
+    home_competitor_obj = Competitor.from_dict(game_data_dict['homeCompetitor']) if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict) else None
+    away_competitor_obj = Competitor.from_dict(game_data_dict['awayCompetitor']) if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict) else None
+
+    if home_competitor_obj:
         home_team_info = dataclasses.asdict(home_competitor_obj)
-        
+        # تحديث أسماء اللاعبين في التشكيلة بناءً على player_id_to_name (هذا الجزء كان صحيحًا)
         if home_team_info.get('lineups') and home_team_info['lineups'].get('members'):
             for player in home_team_info['lineups']['members']:
-                p_id = player.get('id')
-                if p_id and p_id in player_id_to_info:
-                    # تحديث جميع الحقول من المصدر الموثوق
-                    player['name'] = player_id_to_info[p_id].get('name', player.get('name', ''))
-                    player['shortName'] = player_id_to_info[p_id].get('shortName', player.get('shortName', ''))
-                    player['jerseyNumber'] = player_id_to_info[p_id].get('jerseyNumber', player.get('jerseyNumber', ''))
-                    player['nameForURL'] = player_id_to_info[p_id].get('nameForURL', player.get('nameForURL', ''))
-        
+                if 'id' in player and player['id'] in player_id_to_name:
+                    player['name'] = player_id_to_name[player['id']]
         filtered_match_data['homeTeam'] = home_team_info
     else:
-        print(f"    - تحذير: المفتاح 'homeCompetitor' غير موجود للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'homeCompetitor' غير موجود أو ليس قاموساً للمباراة {match_id}. (سيتم تخطيه)")
 
-    # الفريق الضيف (باستخدام المتغيرات الصحيحة)
-    if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict):
-        away_competitor_obj = Competitor.from_dict(game_data_dict['awayCompetitor'])  # تصحيح هنا
-        away_team_info = dataclasses.asdict(away_competitor_obj)  # تصحيح هنا
-        
+    if away_competitor_obj:
+        away_team_info = dataclasses.asdict(away_competitor_obj)
+        # تحديث أسماء اللاعبين في التشكيلة بناءً على player_id_to_name (هذا الجزء كان صحيحًا)
         if away_team_info.get('lineups') and away_team_info['lineups'].get('members'):
             for player in away_team_info['lineups']['members']:
-                p_id = player.get('id')
-                if p_id and p_id in player_id_to_info:
-                    # تحديث جميع الحقول من المصدر الموثوق
-                    player['name'] = player_id_to_info[p_id].get('name', player.get('name', ''))
-                    player['shortName'] = player_id_to_info[p_id].get('shortName', player.get('shortName', ''))
-                    player['jerseyNumber'] = player_id_to_info[p_id].get('jerseyNumber', player.get('jerseyNumber', ''))
-                    player['nameForURL'] = player_id_to_info[p_id].get('nameForURL', player.get('nameForURL', ''))
-        
-        filtered_match_data['awayTeam'] = away_team_info  # تصحيح هنا
+                if 'id' in player and player['id'] in player_id_to_name:
+                    player['name'] = player_id_to_name[player['id']]
+        filtered_match_data['awayTeam'] = away_team_info
     else:
-        print(f"    - تحذير: المفتاح 'awayCompetitor' غير موجود للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'awayCompetitor' غير موجود أو ليس قاموساً للمباراة {match_id}. (سيتم تخطيه)")
 
-    # 7. معالجة الأحداث الرئيسية
+
+    # 3. معالجة الأحداث الرئيسية (events) بالتفصيل
+    # الآن بعد أن أصبح player_id_to_name أكثر اكتمالًا
     if 'events' in game_data_dict and isinstance(game_data_dict['events'], list):
         filtered_events = []
         for event_data in game_data_dict['events']:
@@ -762,23 +693,24 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
                 event_info = dataclasses.asdict(event_obj)
 
                 # ربط أسماء اللاعبين والفرق بالأحداث
-                player_id = event_info.get('playerId')
-                if player_id and player_id in player_id_to_info:
-                    event_info['playerName'] = player_id_to_info[player_id].get('name', '')
-                
-                competitor_id = event_info.get('competitorId')
-                if competitor_id and competitor_id in team_id_to_name:
-                    event_info['teamName'] = team_id_to_name[competitor_id]
+                if event_info.get('playerId') in player_id_to_name:
+                    event_info['playerName'] = player_id_to_name[event_info['playerId']]
+                # ربط اسم الفريق بالـ competitorId
+                if event_info.get('competitorId') in team_id_to_name:
+                    event_info['teamName'] = team_id_to_name[event_info['competitorId']]
 
                 filtered_events.append(event_info)
             except Exception as e:
-                print(f"    - خطأ في معالجة حدث: {e}")
-        filtered_match_data['events'] = filtered_events
-    else:
-        print(f"    - تحذير: المفتاح 'events' غير موجود للمباراة {match_id}")
+                print(f"    - خطأ في معالجة حدث واحد داخل 'events' للمباراة {match_id}: {e} - بيانات الحدث: {event_data.get('id', 'N/A')}")
 
-    # 8. معالجة chartEvents
-    # 9. ربط بيانات اللاعبين في أحداث الرسم البياني
+
+        if filtered_events:
+            filtered_match_data['events'] = filtered_events
+    else:
+        print(f"    - تحذير: المفتاح 'events' غير موجود أو ليس قائمة للمباراة {match_id}. (سيتم تخطيه)")
+
+    # 4. معالجة chartEvents بالتفصيل وربط اللاعبين
+    # الآن بعد أن أصبح player_id_to_name أكثر اكتمالًا
     if 'chartEvents' in game_data_dict and isinstance(game_data_dict['chartEvents'], dict):
         extracted_chart_events = {}
         for key, events_list in game_data_dict['chartEvents'].items():
@@ -786,54 +718,74 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
                 processed_events = []
                 for event_data in events_list:
                     try:
+                        # هنا تم التعديل
                         chart_event_obj = ChartEvent.from_dict(event_data)
                         chart_event_info = dataclasses.asdict(chart_event_obj)
-                        
-                        # ربط معلومات اللاعب باستخدام نظامنا المركزي
-                        player_id = event_data.get('playerId')
-                        athlete_id = event_data.get('athleteId')
-                        
-                        player_info = {}
-                        if player_id and player_id in player_id_to_info:
-                            player_info = player_id_to_info[player_id]
-                        elif athlete_id and athlete_id in athlete_id_to_info:
-                            player_info = athlete_id_to_info[athlete_id]
-                        
-                        if player_info:
-                            for field in ['name', 'shortName', 'jerseyNumber', 'positionName']:
-                                if field in player_info:
-                                    chart_event_info[field] = player_info[field]
 
-                        
+                        if chart_event_info.get('playerId') in player_id_to_name:
+                            chart_event_info['playerName'] = player_id_to_name[chart_event_info['playerId']]
+                        if chart_event_info.get('playerId') in player_id_to_team_name:
+                            chart_event_info['teamName'] = player_id_to_team_name[chart_event_info['playerId']]
+
                         # تحديد الفريق المعني
-                        competitor_num = chart_event_info.get('competitorNum')
-                        if competitor_num == 1 and home_team_name:
+                        if chart_event_info.get('competitorNum') == 1 and home_team_name:
                             chart_event_info['involvedTeam'] = home_team_name
-                        elif competitor_num == 2 and away_team_name:
+                        elif chart_event_info.get('competitorNum') == 2 and away_team_name:
                             chart_event_info['involvedTeam'] = away_team_name
 
                         processed_events.append(chart_event_info)
                     except Exception as e:
-                        print(f"    - خطأ في معالجة حدث الرسم: {e}")
+                        print(f"    - خطأ في معالجة حدث واحد داخل 'chartEvents' للمباراة {match_id} (key: {key}): {e} - بيانات الحدث: {event_data.get('key', 'N/A')}")
                 extracted_chart_events[key] = processed_events
-        filtered_match_data['chartEvents'] = extracted_chart_events
+
+        if extracted_chart_events:
+            filtered_match_data['chartEvents'] = extracted_chart_events
+        else:
+            print(f"    - تحذير: المفتاح 'chartEvents.events' موجود لكنه فارغ أو غير صالح للمباراة {match_id}.")
     else:
-        print(f"    - تحذير: المفتاح 'chartEvents' غير موجود للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'chartEvents' غير موجود أو ليس قاموساً للمباراة {match_id}. (سيتم تخطيه)")
 
-    # 10. معالجة الإحصائيات
-    home_stats = {}
-    away_stats = {}
-    
-    if 'homeCompetitor' in game_data_dict and isinstance(game_data_dict['homeCompetitor'], dict):
-        home_stats = extract_team_stats(game_data_dict['homeCompetitor'])
-    
-    if 'awayCompetitor' in game_data_dict and isinstance(game_data_dict['awayCompetitor'], dict):
-        away_stats = extract_team_stats(game_data_dict['awayCompetitor'])
-    
-    filtered_match_data['homeTeamStats'] = home_stats
-    filtered_match_data['awayTeamStats'] = away_stats
 
-    # 11. معالجة widgets
+    # 5. معالجة game.topPerformers بالتفصيل
+    # الآن بعد أن أصبح player_id_to_name أكثر اكتمالًا
+    if 'topPerformers' in game_data_dict and isinstance(game_data_dict['topPerformers'], dict):
+        top_performers_obj = TopPerformers.from_dict(game_data_dict['topPerformers'])
+        filtered_top_performers_categories = []
+        if top_performers_obj.categories:
+            for category_obj in top_performers_obj.categories:
+                category_info = dataclasses.asdict(category_obj)
+                # تحديث أسماء اللاعبين
+                if category_info.get('homePlayer'):
+                    # تحقق من playerId و athleteId
+                    player_id = category_info['homePlayer'].get('id')
+                    athlete_id = category_info['homePlayer'].get('athleteId')
+                    
+                    if player_id in player_id_to_name:
+                        category_info['homePlayer']['name'] = player_id_to_name[player_id]
+                    elif athlete_id in player_id_to_name: # بعض الأحيان يكون الـ ID هو athleteId
+                         category_info['homePlayer']['name'] = player_id_to_name[athlete_id]
+
+
+                if category_info.get('awayPlayer'):
+                    # تحقق من playerId و athleteId
+                    player_id = category_info['awayPlayer'].get('id')
+                    athlete_id = category_info['awayPlayer'].get('athleteId')
+
+                    if player_id in player_id_to_name:
+                        category_info['awayPlayer']['name'] = player_id_to_name[player_id]
+                    elif athlete_id in player_id_to_name:
+                         category_info['awayPlayer']['name'] = player_id_to_name[athlete_id]
+
+                filtered_top_performers_categories.append(category_info)
+
+        if filtered_top_performers_categories:
+            filtered_match_data['topPerformers'] = filtered_top_performers_categories
+        else:
+            print(f"    - تحذير: المفتاح 'topPerformers.categories' موجود لكنه فارغ أو غير صالح للمباراة {match_id}.")
+    else:
+        print(f"    - تحذير: المفتاح 'topPerformers' غير موجود أو ليس قاموساً للمباراة {match_id}. (سيتم تخطيه)")
+
+    # 6. معالجة game.widgets بالتفصيل
     if 'widgets' in game_data_dict and isinstance(game_data_dict['widgets'], list):
         filtered_widgets = []
         for widget_data in game_data_dict['widgets']:
@@ -842,20 +794,28 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
         if filtered_widgets:
             filtered_match_data['widgets'] = filtered_widgets
     else:
-        print(f"    - تحذير: المفتاح 'widgets' غير موجود للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'widgets' غير موجود أو ليس قائمة للمباراة {match_id}. (سيتم تخطيه)")
 
-    # 12. معالجة officials
+    # 7. الإحصائيات الرئيسية (statistics)
+    if 'statistics' in game_data_dict and isinstance(game_data_dict['statistics'], dict):
+        stats_obj = GameStatistics.from_dict(game_data_dict['statistics'])
+        filtered_match_data['statistics'] = dataclasses.asdict(stats_obj)
+    else:
+        print(f"    - تحذير: المفتاح 'statistics' (على مستوى المباراة) غير موجود للمباراة {match_id}. (سيتم تخطيه)")
+
+    # 8. المسؤولون عن المباراة (officials)
     if 'officials' in game_data_dict and isinstance(game_data_dict['officials'], list):
         filtered_officials = []
         for official_data in game_data_dict['officials']:
             official_obj = Official.from_dict(official_data)
-            filtered_officials.append(dataclasses.asdict(official_obj))
+            if official_obj.role == 'Referee':
+                filtered_officials.append(dataclasses.asdict(official_obj))
         if filtered_officials:
             filtered_match_data['officials'] = filtered_officials
     else:
-        print(f"    - تحذير: المفتاح 'officials' غير موجود للمباراة {match_id}")
+        print(f"    - تحذير: المفتاح 'officials' غير موجود أو ليس قائمة للمباراة {match_id}. (سيتم تخطيه)")
 
-    # 13. معالجة stages
+    # 9. معالجة game.stages
     if 'stages' in game_data_dict and isinstance(game_data_dict['stages'], list):
         filtered_stages = []
         for stage_data in game_data_dict['stages']:
@@ -864,19 +824,18 @@ def process_game_data(game_data_dict: Dict[str, Any], match_id: Any) -> Dict[str
         if filtered_stages:
             filtered_match_data['stages'] = filtered_stages
     else:
-        print(f"    - تحذير: المفتاح 'stages' غير موجود للمباراة {match_id}")
-    print(f"معلومات اللاعبين للمباراة {match_id}:")
-    # في دالة process_game_data
-    print(f"معالجة المباراة {match_id}")
-    print(f"عدد اللاعبين في الفريق المنزل: {len(player_id_to_info)}")
-    if player_id_to_info:
-        sample_player = next(iter(player_id_to_info.values()))
-        print(f"لاعب عينة: {sample_player.get('name')}")
+        print(f"    - تحذير: المفتاح 'stages' غير موجود أو ليس قائمة للمباراة {match_id}. (سيتم تخطيه)")
 
+    
+
+    
     return filtered_match_data
 
-def extract_data_to_dataframes(df_games: pd.DataFrame):
 
+def extract_data_to_dataframes(df_games: pd.DataFrame):
+    """
+    تستخرج البيانات من DataFrame المباريات إلى DataFrames منفصلة.
+    """
     all_matches_data = []
     all_players_data = []
     all_events_data = []
@@ -900,10 +859,8 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
         try:
             filtered_data = process_game_data(game_data_dict, match_id)
             
-            home_stats = filtered_data.get('homeTeamStats', {})
-            away_stats = filtered_data.get('awayTeamStats', {})
-
-            match_info = {
+            # --- تعبئة df_matches ---
+            all_matches_data.append({
                 'matchId': filtered_data.get('matchId'),
                 'competitionName': filtered_data.get('competitionName'),
                 'startTime': filtered_data.get('startTime'),
@@ -914,46 +871,34 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
                 'homeTeamScore': filtered_data.get('homeTeam', {}).get('score'),
                 'awayTeamName': filtered_data.get('awayTeam', {}).get('name'),
                 'awayTeamScore': filtered_data.get('awayTeam', {}).get('score'),
-                # إحصائيات متقدمة
-                'corners_home': get_stat(home_stats, "Corners", "Corner Kicks", "corners"),
-                'corners_away': get_stat(away_stats, "Corners", "Corner Kicks", "corners"),
-                'shotsOnTarget_home': get_stat(home_stats, "Shots On Target", "shotsOnTarget"),
-                'shotsOnTarget_away': get_stat(away_stats, "Shots On Target", "shotsOnTarget"),
-                'shotsTotal_home': get_stat(home_stats, "Total Shots", "Shots"),
-                'shotsTotal_away': get_stat(away_stats, "Total Shots", "Shots"),
-                'passesCompleted_home': get_stat(home_stats, "Passes Completed"),
-                'passesCompleted_away': get_stat(away_stats, "Passes Completed"),
-                'possession_home': get_stat(home_stats, "Possession", "Ball Possession", "possession"),
-                'possession_away': get_stat(away_stats, "Possession", "Ball Possession", "possession"),
-                'fouls_home': get_stat(home_stats, "Fouls", "Fouls Committed"),
-                'fouls_away': get_stat(away_stats, "Fouls", "Fouls Committed"),
-                'offsides_home': get_stat(home_stats, "Offsides"),
-                'offsides_away': get_stat(away_stats, "Offsides"),
-                'saves_home': get_stat(home_stats, "Saves", "Goalkeeper Saves"),
-                'saves_away': get_stat(away_stats, "Saves", "Goalkeeper Saves"),
-                'yellowCards_home': get_stat(home_stats, "Yellow Cards", "Yellow cards"),
-                'yellowCards_away': get_stat(away_stats, "Yellow Cards", "Yellow cards"),
-                'redCards_home': get_stat(home_stats, "Red Cards", "Red cards"),
-                'redCards_away': get_stat(away_stats, "Red Cards", "Red cards"),
-                
-            }
-            
-            all_matches_data.append(match_info)
-            
-            # 2. بيانات اللاعبين
+                'statistics_corners_home': filtered_data.get('statistics', {}).get('corners', {}).get('home'),
+                'statistics_corners_away': filtered_data.get('statistics', {}).get('corners', {}).get('away'),
+                'statistics_shotsOnTarget_home': filtered_data.get('statistics', {}).get('shotsOnTarget', {}).get('home'),
+                'statistics_shotsOnTarget_away': filtered_data.get('statistics', {}).get('shotsOnTarget', {}).get('away'),
+                'statistics_possession_home': filtered_data.get('statistics', {}).get('possession', {}).get('home'),
+                'statistics_possession_away': filtered_data.get('statistics', {}).get('possession', {}).get('away'),
+            })
+
+            # --- استخلاص بيانات اللاعبين (df_players) ---
             home_comp_obj = filtered_data.get('homeTeam')
             if home_comp_obj and home_comp_obj.get('lineups') and home_comp_obj['lineups'].get('members'):
                 for player_data in home_comp_obj['lineups']['members']:
-                    # معالجة آمنة للحقول المتداخلة
-                    position_name = player_data.get('position', {}).get('name') if isinstance(player_data.get('position'), dict) else None
-                    formation_name = player_data.get('formation', {}).get('name') if isinstance(player_data.get('formation'), dict) else None
-                        
+                    formation_name = None
+                    if player_data.get('formation'):
+                        if isinstance(player_data['formation'], dict):
+                            formation_name = player_data['formation'].get('name')
+                    
+                    # معالجة مشكلة positionName
+                    position_name = None
+                    if player_data.get('position'):
+                        if isinstance(player_data['position'], dict):
+                            position_name = player_data['position'].get('name')
                     player_entry = {
                         'matchId': match_id,
                         'playerId': player_data.get('id'),
                         'playerName': player_data.get('name'),
                         'teamName': home_comp_obj.get('name'),
-                        'isHomeTeam': (team_key == 'homeTeam'),
+                        'isHomeTeam': True,
                         'positionName': position_name,
                         'isStarter': player_data.get('statusText') == 'Starter',
                         'formation_name': formation_name,
@@ -963,7 +908,45 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
                         'nationalId': player_data.get('nationalId'),
                     }
 
-                       # إضافة الإحصائيات بشكل آمن
+                    # إضافة الإحصائيات
+                    if player_data.get('stats'):
+                        for stat in player_data['stats']:
+                            stat_key = stat.get('name') or f"type_{stat.get('type')}"
+                            player_entry[f"stat_{stat_key}"] = stat.get('value')
+                    
+                    all_players_data.append(player_entry)
+                    
+            # نفس المعالجة للفريق الضيف
+            away_comp_obj = filtered_data.get('awayTeam')
+            if away_comp_obj and away_comp_obj.get('lineups') and away_comp_obj['lineups'].get('members'):
+                for player_data in away_comp_obj['lineups']['members']:
+                    # معالجة مشكلة formation_name
+                    formation_name = None
+                    if player_data.get('formation'):
+                        if isinstance(player_data['formation'], dict):
+                            formation_name = player_data['formation'].get('name')
+                    
+                    # معالجة مشكلة positionName
+                    position_name = None
+                    if player_data.get('position'):
+                        if isinstance(player_data['position'], dict):
+                            position_name = player_data['position'].get('name')
+                    
+                    player_entry = {
+                        'matchId': match_id,
+                        'playerId': player_data.get('id'),
+                        'playerName': player_data.get('name'),
+                        'teamName': away_comp_obj.get('name'),
+                        'isHomeTeam': False,
+                        'positionName': position_name,
+                        'isStarter': player_data.get('statusText') == 'Starter',
+                        'formation_name': formation_name,
+                        'ranking': player_data.get('ranking'),
+                        'popularityRank': player_data.get('popularityRank'),
+                        'hasStats': player_data.get('hasStats'),
+                        'nationalId': player_data.get('nationalId'),
+                    }
+                    
                     if player_data.get('stats'):
                         for stat in player_data['stats']:
                             stat_key = stat.get('name') or f"type_{stat.get('type')}"
@@ -971,78 +954,137 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
                     
                     all_players_data.append(player_entry)
 
-            
-            # 3. أحداث المباراة
+
             if 'events' in filtered_data:
                 for event in filtered_data['events']:
-                    event['matchId'] = match_id
-                    all_events_data.append(event)
+                    # نسخ آمن للحدث
+                    event_copy = {
+                        'matchId': match_id,
+                        'order': event.get('order'),
+                        'gameTimeDisplay': event.get('gameTimeDisplay'),
+                        'gameTime': event.get('gameTime'),
+                        'addedTime': event.get('addedTime'),
+                        'isMajor': event.get('isMajor'),
+                        'playerId': event.get('playerId'),
+                        'competitorId': event.get('competitorId'),
+                        'statusId': event.get('statusId'),
+                        'stageId': event.get('stageId'),
+                        'num': event.get('num'),
+                        'gameTimeAndStatusDisplayType': event.get('gameTimeAndStatusDisplayType'),
+                        'extraPlayers': event.get('extraPlayers', []),
+                        'teamName': event.get('teamName'),
+                        'playerName': event.get('playerName', 'Unknown'),
+                    }
+                    
+                    # نسخ eventType بشكل آمن
+                    if 'eventType' in event and isinstance(event['eventType'], dict):
+                        event_copy['eventType'] = event['eventType']
+                    
+                    all_events_data.append(event_copy)
 
-            # 4. أحداث الرسم البياني        
+
+            # --- استخلاص أحداث الرسم البياني (df_chart_events) ---
             if 'chartEvents' in filtered_data:
                 for event_type, events_list in filtered_data['chartEvents'].items():
                     for event in events_list:
-                        event['matchId'] = match_id
-                        event['chartEventTypeCategory'] = event_type
-                        all_chart_events_data.append(event)
+                        # نسخ آمن للحدث
+                        chart_event_copy = {
+                            'matchId': match_id,
+                            'chartEventTypeCategory': event_type,
+                            'key': event.get('key'),
+                            'time': event.get('time'),
+                            'minute': event.get('minute'),
+                            'type': event.get('type'),
+                            'subType': event.get('subType'),
+                            'playerId': event.get('playerId'),
+                            'xg': event.get('xg'),
+                            'xgot': event.get('xgot'),
+                            'bodyPart': event.get('bodyPart'),
+                            'goalDescription': event.get('goalDescription'),
+                            'competitorNum': event.get('competitorNum'),
+                            'x': event.get('x'),
+                            'y': event.get('y'),
+                            'playerName': event.get('playerName', 'Unknown'),
+                            'involvedTeam': event.get('involvedTeam'),
+                        }
+                        
+                        # نسخ outcome بشكل آمن
+                        if 'outcome' in event and isinstance(event['outcome'], dict):
+                            chart_event_copy['outcome'] = event['outcome']
+                        
+                        all_chart_events_data.append(chart_event_copy)
 
-            # 5. أفضل اللاعبين أداءً           
+            # --- استخلاص أفضل اللاعبين أداءً (df_top_performers) ---
             if 'topPerformers' in filtered_data:
                 for category in filtered_data['topPerformers']:
-                    for team_key in ['homePlayer', 'awayPlayer']:
-                        player_data = category.get(team_key)
-                        if player_data:
-                            top_perf_entry = {
-                                'matchId': match_id,
-                                'categoryName': category.get('name'),
-                                'playerId': player_data.get('id'),
-                                'athleteId': player_data.get('athleteId'),
-                                'playerName': player_data.get('name'),
-                                'teamName': filtered_data['homeTeam']['name'] if team_key == 'homePlayer' else filtered_data['awayTeam']['name'],
-                                'isHomeTeam': (team_key == 'homePlayer'),
-                                'positionName': player_data.get('positionName'),
-                                'positionShortName': player_data.get('positionShortName'),
-                                'imageVersion': player_data.get('imageVersion'),
-                                'nameForURL': player_data.get('nameForURL')
-                            }
+                    if category.get('homePlayer'):
+                        top_perf_entry_home = {
+                            'matchId': match_id,
+                            'categoryName': category.get('name'),
+                            'playerId': category['homePlayer'].get('id'),
+                            'athleteId': category['homePlayer'].get('athleteId'),
+                            'playerName': category['homePlayer'].get('name'),
+                            'teamName': home_comp_obj.get('name') if home_comp_obj else None,
+                            'isHomeTeam': True,
+                            'positionName': category['homePlayer'].get('positionName'),
+                            'positionShortName': category['homePlayer'].get('positionShortName'),
+                            'imageVersion': category['homePlayer'].get('imageVersion'),
+                            'nameForURL': category['homePlayer'].get('nameForURL')
+                        }
+                        if category['homePlayer'].get('stats'):
+                            for stat in category['homePlayer']['stats']:
+                                stat_key = stat.get('name') or f"type_{stat.get('type')}"
+                                top_perf_entry_home[f"stat_{stat_key}"] = stat.get('value')
+                        all_top_performers_data.append(top_perf_entry_home)
 
-                            # إضافة الإحصائيات
-                            if player_data.get('stats'):
-                                for stat in player_data['stats']:
-                                    stat_name = stat.get('name')
-                                    stat_type = stat.get('type')
-                                    if stat_name:
-                                        stat_key = f"stat_{stat_name}"
-                                    elif stat_type is not None:
-                                        stat_key = f"stat_type_{stat_type}"
-                                    else:
-                                        stat_key = "stat_unknown"
-                                    top_perf_entry[stat_key] = stat.get('value')
-                            all_top_performers_data.append(top_perf_entry)
+                    if category.get('awayPlayer'):
+                        top_perf_entry_away = {
+                            'matchId': match_id,
+                            'categoryName': category.get('name'),
+                            'playerId': category['awayPlayer'].get('id'),
+                            'athleteId': category['awayPlayer'].get('athleteId'),
+                            'playerName': category['awayPlayer'].get('name'),
+                            'teamName': away_comp_obj.get('name') if away_comp_obj else None,
+                            'isHomeTeam': False,
+                            'positionName': category['awayPlayer'].get('positionName'),
+                            'positionShortName': category['awayPlayer'].get('positionShortName'),
+                            'imageVersion': category['awayPlayer'].get('imageVersion'),
+                            'nameForURL': category['awayPlayer'].get('nameForURL')
+                        }
+                        if category['awayPlayer'].get('stats'):
+                            for stat in category['awayPlayer']['stats']:
+                                stat_key = stat.get('name') or f"type_{stat.get('type')}"
+                                top_perf_entry_away[f"stat_{stat_key}"] = stat.get('value')
+                        all_top_performers_data.append(top_perf_entry_away)
 
-            # 6. الأدوات (Widgets)
+            # --- استخلاص الأدوات (df_widgets) ---
             if 'widgets' in filtered_data:
                 for widget in filtered_data['widgets']:
-                    widget['matchId'] = match_id
-                    all_widgets_data.append(widget)
+                    widget_copy = widget.copy()
+                    widget_copy['matchId'] = match_id
+                    all_widgets_data.append(widget_copy)
 
-            # 7. المسؤولون        
+            # --- استخلاص المسؤولين (df_officials) ---
             if 'officials' in filtered_data:
                 for official in filtered_data['officials']:
-                    official['matchId'] = match_id
-                    all_officials_data.append(official)
+                    official_copy = official.copy()
+                    official_copy['matchId'] = match_id
+                    all_officials_data.append(official_copy)
 
-            # 8. مراحل المباراة        
+            # --- استخلاص المراحل (df_stages) ---
             if 'stages' in filtered_data:
                 for stage in filtered_data['stages']:
-                    stage['matchId'] = match_id
-                    all_stages_data.append(stage)
+                    stage_copy = stage.copy()
+                    stage_copy['matchId'] = match_id
+                    all_stages_data.append(stage_copy)
+        
 
         except Exception as e:
             print(f"    - خطأ في معالجة المباراة {match_id}: {e}")
             import traceback
             traceback.print_exc()
 
+    # إنشاء DataFrames
     df_matches = pd.DataFrame(all_matches_data)
     df_players = pd.DataFrame(all_players_data)
     df_events = pd.DataFrame(all_events_data)
@@ -1051,54 +1093,55 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
     df_widgets = pd.DataFrame(all_widgets_data)
     df_officials = pd.DataFrame(all_officials_data)
     df_stages = pd.DataFrame(all_stages_data)
+    print("\nاكتمل استخلاص البيانات إلى DataFrames.")
 
-    print("\nتم استخلاص البيانات بنجاح!")
-    print(f"  - المباريات: {len(df_matches)} سجل")
-    print(f"  - اللاعبون: {len(df_players)} سجل")
-    print(f"  - الأحداث: {len(df_events)} سجل")
-    print(f"  - أحداث الرسم: {len(df_chart_events)} سجل")
-    print(f"  - أفضل اللاعبين: {len(df_top_performers)} سجل")
-    print(f"  - الأدوات: {len(df_widgets)} سجل")
-    print(f"  - المسؤولون: {len(df_officials)} سجل")
-    print(f"  - المراحل: {len(df_stages)} سجل")
-    # بعد معالجة جميع المباريات
-    print("\nجميع مفاتيح الإحصائيات التي تم مواجهتها عبر جميع الفرق:")
-    print(sorted(all_stat_keys_global))
-    
+
     return df_matches, df_players, df_events, df_chart_events, df_top_performers, df_widgets, df_officials, df_stages
 
-if __name__ == "__main__":
-    PICKLE_PATH = r'C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl'
-    OUTPUT_DIR = r'C:\Users\E.abed\Desktop\FootballData\processed_data'
-    try:
-        print(f"جاري تحميل البيانات من: {PICKLE_PATH}")
-        df_games = pd.read_pickle(PICKLE_PATH)
-        if not os.path.exists(OUTPUT_DIR):
-            os.makedirs(OUTPUT_DIR)
-            print(f"تم إنشاء مجلد الإخراج: {OUTPUT_DIR}")
-        
-        # معالجة البيانات
-        results = extract_data_to_dataframes(df_games)
-        df_names = [
-            'matches', 'players', 'events', 
-            'chart_events', 'top_performers', 
-            'widgets', 'officials', 'stages'
-        ]
-        
-        # حفظ النتائج بصيغة JSON
-        for i, df in enumerate(results):
-            if not df.empty:
-                output_path = os.path.join(OUTPUT_DIR, f'df_{df_names[i]}.json')
-                df.to_json(output_path, orient='records', force_ascii=False, indent=2)
-                print(f"تم حفظ {df_names[i]} ({len(df)} سجل) في: {output_path}")
-            else:
-                print(f"تحذير: {df_names[i]} فارغ، لم يتم حفظه")
-        
-        print("\nتم الانتهاء من معالجة جميع البيانات بنجاح!")
-        
-    except FileNotFoundError:
-        print(f"خطأ: الملف {PICKLE_PATH} غير موجود!")
-    except Exception as e:
-        print(f"حدث خطأ غير متوقع: {e}")
-        import traceback
-        traceback.print_exc()
+# --- مثال على كيفية استخدام الكود ---
+# يجب عليك تشغيل هذا الكود في بيئة Python الخاصة بك.
+
+# مسار ملف الـ pickle الخاص بك
+pickle_file_path = r'C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl'
+
+# مسار مجلد الإخراج لملفات JSON (اختياري، إذا كنت لا تريد حفظها JSON)
+output_directory = r'C:\Users\E.abed\Desktop\FootballData\filtered_games'
+os.makedirs(output_directory, exist_ok=True) # تأكد من وجود المجلد
+
+try:
+    print(f"جاري تحميل ملف الـ pickle من: {pickle_file_path}")
+    df_all_games = pd.read_pickle(pickle_file_path)
+    print(f"تم تحميل الـ DataFrame بنجاح. يحتوي على {len(df_all_games)} صفوف.")
+
+    # استدعاء دالة الاستخراج لإنشاء DataFrames
+    df_matches, df_players, df_events, df_chart_events, df_top_performers, df_widgets, df_officials, df_stages = extract_data_to_dataframes(df_all_games)
+
+    print("\n--- نتائج DataFrames بعد المعالجة ---")
+    print(f"عدد الصفوف في df_matches: {len(df_matches)}")
+    print(f"عدد الصفوف في df_players: {len(df_players)}")
+    print(f"عدد الصفوف في df_events: {len(df_events)}")
+    print(f"عدد الصفوف في df_chart_events: {len(df_chart_events)}")
+    print(f"عدد الصفوف في df_top_performers: {len(df_top_performers)}")
+    print(f"عدد الصفوف في df_widgets: {len(df_widgets)}")
+    print(f"عدد الصفوف في df_officials: {len(df_officials)}")
+    print(f"عدد الصفوف في df_stages: {len(df_stages)}")
+
+    # عرض أول 5 صفوف من كل DataFrame للتأكد
+    print("\n--- أول 5 صفوف من df_players (اللاعبون) ---\n")
+    print(df_players.head())
+    print("\n--- أول 5 صفوف من df_events (الأحداث) ---\n")
+    print(df_events.head())
+    print("\n--- أول 5 صفوف من df_chart_events (أحداث الرسم البياني) ---\n")
+    print(df_chart_events.head())
+    print("\n--- أول 5 صفوف من df_top_performers (أفضل اللاعبين أداءً) ---\n")
+    print(df_top_performers.head())
+    print("\n--- أول 5 صفوف من df_officials (المسؤولون) ---\n")
+    print(df_officials.head())
+
+
+except FileNotFoundError:
+    print(f"خطأ: الملف {pickle_file_path} غير موجود. يرجى التأكد من المسار الصحيح.")
+except Exception as e:
+    print(f"حدث خطأ أثناء معالجة ملف الـ pickle: {e}")
+    import traceback
+    traceback.print_exc()
