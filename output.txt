@@ -1,0 +1,194 @@
+جاري تحميل ملف الـ pickle من: C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl
+تم تحميل الـ DataFrame بنجاح. يحتوي على 322 صفوف.
+============================================================
+مباراة رقم 0 | matchId: 4395844 | Zamalek SC vs Pharco
+- home_team المفاتيح: ['id', 'countryId', 'sportId', 'name', 'score', 'isQualified', 'toQualify', 'isWinner', 'type', 'recentMatches', 'lineups', 'nameForURL', 'imageVersion', 'color', 'awayColor', 'mainCompetitionId']
+- away_team المفاتيح: ['id', 'countryId', 'sportId', 'name', 'longName', 'score', 'isQualified', 'toQualify', 'isWinner', 'type', 'recentMatches', 'lineups', 'nameForURL', 'imageVersion', 'color', 'mainCompetitionId']
+
+محتوى home_team (مختصر):
+{
+  "id": 8201,
+  "countryId": 131,
+  "sportId": 1,
+  "name": "Zamalek SC",
+  "score": 2.0,
+  "isQualified": false
+}
+
+محتوى away_team (مختصر):
+{
+  "id": 46242,
+  "countryId": 131,
+  "sportId": 1,
+  "name": "Pharco",
+  "longName": "Farco Fc",
+  "score": 0.0
+}
+
+*** أين توجد الإحصاءات الجماعية في home_team? ***
+  - statsCategory: <class 'NoneType'> | فارغ أو غير موجود
+  - stats: <class 'NoneType'> | فارغ أو غير موجود
+  - statistics: <class 'NoneType'> | فارغ أو غير موجود
+  - match_stats: <class 'NoneType'> | فارغ أو غير موجود
+  - teamStats: <class 'NoneType'> | فارغ أو غير موجود
+
+*** أين توجد الإحصاءات الجماعية في away_team? ***
+  - statsCategory: <class 'NoneType'> | فارغ أو غير موجود
+  - stats: <class 'NoneType'> | فارغ أو غير موجود
+  - statistics: <class 'NoneType'> | فارغ أو غير موجود
+  - match_stats: <class 'NoneType'> | فارغ أو غير موجود
+  - teamStats: <class 'NoneType'> | فارغ أو غير موجود
+
+----- chartEvents -----
+type: <class 'dict'> | يوجد بيانات
+  event_type: events | type: <class 'list'> | len: 15
+    مثال من events: {
+  "xg": "0.04",
+  "xgot": "0.00",
+  "bodyPart": "Right Foot",
+  "key": "14395844",
+  "competitorNum": 1,
+  "time": "12'",
+  "status": 6,
+  "playerId": 3184639,
+  "line": 53.6,
+  "side": 72.6,
+  "type": 0,
+  "subType": 3,
+  "gameId": 4395844,
+  "outcome": {
+    "y": 48.1,
+    "z": 62.5,
+    "id": 1,
+    "name": "Missed"
+  }
+}
+============================================================
+  event_type: eventTypes | type: <class 'list'> | len: 1
+    مثال من eventTypes: {
+  "id": 8,
+  "value": 0,
+  "name": "Regular Play"
+}
+============================================================
+  event_type: statuses | type: <class 'list'> | len: 2
+    مثال من statuses: {
+  "id": 6,
+  "name": "1st Half",
+  "symbolName": "1st",
+  "aliasName": "FirstHalf",
+  "sportTypeId": 1,
+  "isActive": true,
+  "isFinished": false,
+  "isNotStarted": false,
+  "isExtraTime": false,
+  "isPenalties": false,
+  "isAbnormal": false,
+  "gameTimeForStatus": false,
+  "autonomicTime": false,
+  "hasEvents": true
+}
+============================================================
+  event_type: eventSubTypes | type: <class 'list'> | len: 3
+    مثال من eventSubTypes: {
+  "id": 75,
+  "value": 3,
+  "name": "Free Kick"
+}
+============================================================
+============================================================
+مباراة رقم 1 | matchId: 4395845 | Ghazl El-Mehalla vs Ismaily
+- home_team المفاتيح: ['id', 'countryId', 'sportId', 'name', 'score', 'isQualified', 'toQualify', 'isWinner', 'type', 'recentMatches', 'lineups', 'nameForURL', 'imageVersion', 'color', 'mainCompetitionId']
+- away_team المفاتيح: ['id', 'countryId', 'sportId', 'name', 'score', 'isQualified', 'toQualify', 'isWinner', 'type', 'recentMatches', 'lineups', 'nameForURL', 'imageVersion', 'color', 'mainCompetitionId']
+
+محتوى home_team (مختصر):
+{
+  "id": 8610,
+  "countryId": 131,
+  "sportId": 1,
+  "name": "Ghazl El-Mehalla",
+  "score": 1.0,
+  "isQualified": false
+}
+
+محتوى away_team (مختصر):
+{
+  "id": 8299,
+  "countryId": 131,
+  "sportId": 1,
+  "name": "Ismaily",
+  "score": 1.0,
+  "isQualified": false
+}
+
+*** أين توجد الإحصاءات الجماعية في home_team? ***
+  - statsCategory: <class 'NoneType'> | فارغ أو غير موجود
+  - stats: <class 'NoneType'> | فارغ أو غير موجود
+  - statistics: <class 'NoneType'> | فارغ أو غير موجود
+  - match_stats: <class 'NoneType'> | فارغ أو غير موجود
+  - teamStats: <class 'NoneType'> | فارغ أو غير موجود
+
+*** أين توجد الإحصاءات الجماعية في away_team? ***
+  - statsCategory: <class 'NoneType'> | فارغ أو غير موجود
+  - stats: <class 'NoneType'> | فارغ أو غير موجود
+  - statistics: <class 'NoneType'> | فارغ أو غير موجود
+  - match_stats: <class 'NoneType'> | فارغ أو غير موجود
+  - teamStats: <class 'NoneType'> | فارغ أو غير موجود
+
+----- chartEvents -----
+type: <class 'dict'> | يوجد بيانات
+  event_type: events | type: <class 'list'> | len: 13
+    مثال من events: {
+  "xg": "0.08",
+  "xgot": "0.82",
+  "bodyPart": "Header",
+  "goalDescription": "Low Centre",
+  "key": "14395845",
+  "competitorNum": 1,
+  "time": "9'",
+  "status": 6,
+  "playerId": 76746137,
+  "line": 38.3,
+  "side": 97.6,
+  "type": 0,
+  "subType": 7,
+  "gameId": 4395845,
+  "outcome": {
+    "y": 48.4,
+    "z": 14.6,
+    "id": 2,
+    "name": "Saved"
+  }
+}
+============================================================
+  event_type: eventTypes | type: <class 'list'> | len: 1
+    مثال من eventTypes: {
+  "id": 8,
+  "value": 0,
+  "name": "Regular Play"
+}
+============================================================
+  event_type: statuses | type: <class 'list'> | len: 2
+    مثال من statuses: {
+  "id": 6,
+  "name": "1st Half",
+  "symbolName": "1st",
+  "aliasName": "FirstHalf",
+  "sportTypeId": 1,
+  "isActive": true,
+  "isFinished": false,
+  "isNotStarted": false,
+  "isExtraTime": false,
+  "isPenalties": false,
+  "isAbnormal": false,
+  "gameTimeForStatus": false,
+  "autonomicTime": false,
+  "hasEvents": true
+}
+============================================================
+  event_type: eventSubTypes | type: <class 'list'> | len: 3
+    مثال من eventSubTypes: {
+  "id": 74,
+  "value": 2,
+  "name": "From Corner"
+}
