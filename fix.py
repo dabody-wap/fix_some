@@ -706,6 +706,7 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
 
     if 'game' not in df_games.columns or df_games['game'].empty:
         print("لا يوجد عمود 'game' أو أنه فارغ في DataFrame المدخل.")
+        
         return tuple(pd.DataFrame() for _ in range(9))
 
     for index, row in df_games.iterrows():
@@ -723,28 +724,60 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
         away_team_id = away_team.get('id')
         team_id_to_name = {home_team_id: home_team_name, away_team_id: away_team_name}
 
+
+        # === ضع كود الطباعات هنا 👇👇👇 ===
+        
+        # === نهاية كود الطباعات ===
+
         # --- df_matches ---
-        stats = game.get('statistics', {}) or {}
-        match_row = {
-            'matchId': match_id,
-            'competitionName': game.get('competitionDisplayName'),
-            'startTime': game.get('startTime'),
-            'statusText': game.get('statusText'),
-            'shortStatusText': game.get('shortStatusText'),
-            'gameTimeAndStatus': game.get('gameTimeAndStatus'),
-            'homeTeamName': home_team_name,
-            'homeTeamScore': home_team.get('score'),
-            'awayTeamName': away_team_name,
-            'awayTeamScore': away_team.get('score'),
-        }
-        # أضف كل إحصائية للفريقين بشكل ديناميكي
-        for stat_name, stat_dict in stats.items():
-            if isinstance(stat_dict, dict):
-                for side in ['home', 'away']:
-                    match_row[f'statistics_{stat_name}_{side}'] = stat_dict.get(side)
-            else:
-                match_row[f'statistics_{stat_name}'] = stat_dict
-        all_matches_data.append(match_row)
+        for index, row in df_games.iterrows():
+
+            game = row['game']  # خطأ! يجب أن يكون هذا السطر بمسافة بادئة
+            match_id = game.get('id', f'unknown_{index}')
+
+            home_team = game.get('homeCompetitor', {})
+            away_team = game.get('awayCompetitor', {})
+            home_team_name = home_team.get('name')
+            away_team_name = away_team.get('name')
+
+            match_row = {
+                'matchId': match_id,
+                'competitionName': game.get('competitionDisplayName'),
+                'startTime': game.get('startTime'),
+                'statusText': game.get('statusText'),
+                'shortStatusText': game.get('shortStatusText'),
+                'gameTimeAndStatus': game.get('gameTimeAndStatus'),
+                'homeTeamName': home_team_name,
+                'homeTeamScore': home_team.get('score'),
+                'awayTeamName': away_team_name,
+                'awayTeamScore': away_team.get('score'),
+            }
+
+            for prefix, team in [('home', home_team), ('away', away_team)]:
+                team_name = team.get('name')
+                members = team.get('lineups', {}).get('members', [])
+                stats_agg = {}
+                for player in members:
+                    for stat in player.get('stats', []):
+                        stat_name = stat.get('name')
+                        stat_value = stat.get('value')
+                        if stat_name is not None:
+                            try:
+                                val = float(stat_value)
+                            except (ValueError, TypeError):
+                                val = stat_value
+                            if isinstance(val, (int, float)):
+                                stats_agg[stat_name] = stats_agg.get(stat_name, 0) + val
+                            else:
+                                if stat_name not in stats_agg:
+                                    stats_agg[stat_name] = val
+                # أضف كل إحصائية كعمود في match_row
+                for stat_name, stat_value in stats_agg.items():
+                    match_row[f"{stat_name}_{prefix}"] = stat_value
+
+            all_matches_data.append(match_row)
+        
+        ##########################################################################
 
         # --- df_players ---
         for team_obj, is_home in [(home_team, True), (away_team, False)]:
@@ -797,30 +830,29 @@ def extract_data_to_dataframes(df_games: pd.DataFrame):
 
         # --- df_chart_events ---
         chart_events = game.get('chartEvents', {})
-        for event_type, events_list in chart_events.items():
-            for ce in events_list:
-                chart_event_copy = {
-                    'matchId': match_id,
-                    'chartEventTypeCategory': event_type,
-                    'key': ce.get('key'),
-                    'time': ce.get('time'),
-                    'minute': ce.get('minute', extract_minute(ce.get('time'))),
-                    'type': ce.get('type'),
-                    'subType': ce.get('subType'),
-                    'playerId': ce.get('playerId'),
-                    'xg': ce.get('xg'),
-                    'xgot': ce.get('xgot'),
-                    'bodyPart': ce.get('bodyPart'),
-                    'goalDescription': ce.get('goalDescription', 'Unknown'),
-                    'competitorNum': ce.get('competitorNum'),
-                    'x': ce.get('line', 'Unknown'),
-                    'y': ce.get('side', 'Unknown'),
-                    'playerName': resolve_player_name(ce.get('playerId'), player_id_to_name),
-                    'involvedTeam': home_team_name if ce.get('competitorNum') == 1 else away_team_name if ce.get('competitorNum') == 2 else 'Unknown',
-                }
-                if 'outcome' in ce and isinstance(ce['outcome'], dict):
-                    chart_event_copy['outcome'] = ce['outcome']
-                all_chart_events_data.append(chart_event_copy)
+        events_list = chart_events.get('events', [])
+        for ce in events_list:
+            chart_event_copy = {
+                'matchId': match_id,
+                'key': ce.get('key'),
+                'time': ce.get('time'),
+                'minute': ce.get('minute'),  # أو extract_minute(ce.get('time'))
+                'type': ce.get('type'),
+                'subType': ce.get('subType'),
+                'playerId': ce.get('playerId'),
+                'xg': ce.get('xg'),
+                'xgot': ce.get('xgot'),
+                'bodyPart': ce.get('bodyPart'),
+                'goalDescription': ce.get('goalDescription', 'Unknown'),
+                'competitorNum': ce.get('competitorNum'),
+                'x': ce.get('line', 'Unknown'),
+                'y': ce.get('side', 'Unknown'),
+                'playerName': resolve_player_name(ce.get('playerId'), player_id_to_name),
+                'involvedTeam': home_team_name if ce.get('competitorNum') == 1 else away_team_name if ce.get('competitorNum') == 2 else 'Unknown',
+            }
+            if 'outcome' in ce and isinstance(ce['outcome'], dict):
+                chart_event_copy['outcome'] = ce['outcome']
+            all_chart_events_data.append(chart_event_copy)
 
         # --- df_top_performers ---
         top_p = game.get('topPerformers', {}).get('categories', [])
