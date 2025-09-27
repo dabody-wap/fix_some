@@ -1,4 +1,4 @@
-جاري تحميل ملف الـ pickle من: C:\Users\E.abed\Desktop\FootballData\all_games_data.pkl
+جاري تحميل ملف الـ pickle من: C:\Users\dabody\Desktop\FootballData\all_games_data.pkl
 تم تحميل الـ DataFrame بنجاح. يحتوي على 322 صفوف.
 ============================================================
 مباراة رقم 0 | matchId: 4395844 | Zamalek SC vs Pharco
@@ -24543,3 +24543,4 @@ type: <class 'NoneType'> | فارغ أو غير موجود
 اكتمل استخلاص البيانات إلى DataFrames.
 تم استخراج الجداول بنجاح.
 تم حفظ جميع الجداول بنجاح في: C:\Users\E.abed\Desktop\FootballData\filtered_games
+
